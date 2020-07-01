@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  ekyc
+
+  Created by Chamara on 12/3/19.
+  Copyright © 2019 Think. All rights reserved.
+*/
+
+"idNumber" = "Nomor ID";
+"passportNumber" = "No. Paspor";
+"licenseNumber" = "No. Lisensi";
+"faceMatch" = "Pertandingan Wajah";
+"submitFailMsg" = "Tidak berhasil, \nKirim kembali Aplikasi Anda";
+"resubmit" = "Kirim Ulang";
+"nationalId" = "KTP";
+"passport" = "Paspor";
+"drivingLicense" = "SIM";
+"takePhoto" = "Ambil foto";
+"photoLibrary" = "Pilih dari album";
+"cancel" = "Batalkan";
+"error" = "Kesalahan";
+"incorrectIdPhoto" = "Gambar yang diunggah memiliki beberapa informasi yang salah. Pastikan untuk mengunggah gambar yang jelas dari ID yang valid dengan semua tepinya terlihat";
+"detactionFail" = "Kami tidak dapat mendeteksi semua detail. Pastikan untuk mengunggah gambar yang jelas dengan semua tepinya terlihat";
+"ok" = "Ok";
+"exitMsg" = "Apakah Anda yakin ingin membatalkan Proses KYC?";
+"yes" = "Iya";
+"no" = "Tidak";
+"exit" = "Keluar";
+"selectIdentificationType" = "Pilih Tipe Identitas";
+"identityVerification" = "Verifikasi Identitas";
+"uploadDocument" = "unggah Dokumen";
+"name" = "Nama";
+"idNumber" = "Nomor ID";
+"expiryDate" = "Tanggal Kadaluwarsa";
+"placeOfBirth" = "Tempat Lahir";
+"dateOfBirth" = "Tanggal Lahir";
+"gender" = "Jenis Kelamin";
+"address" = "Alamat";
+"city" = "Kota";
+"province" = "Provinsi";
+"district" = "Kecamatan";
+"village" = "Kelurahan";
+"zipCode" = "RT/RW";
+"nationality" = "Kewarganegaraan";
+"occupation" = "Pekerjaan";
+"maritalStatus" = "Status Perkawinan";
+"bloodType" = "Golongan Darah";
+"religion" = "Agama";
+"proceed" = "Proses";
+"submitSuccessMsg" = "Berhasil Diserahkan";
+"complete" = "Lengkap";
+"faceMatching" = "Pencocokan wajah";
+"personProbability" = "Kemungkinan orang yang sama:";
+"moreDetail" = "Keterangan lebih lanjut";
+"livenessDetactionFail" = "Deteksi Liveness gagal, silakan coba lagi";
+
+

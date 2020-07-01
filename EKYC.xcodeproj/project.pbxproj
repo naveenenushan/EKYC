@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,79 @@
 		01AA993A24ACA0E700033739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993824ACA0E700033739 /* Main.storyboard */; };
 		01AA993C24ACA0E900033739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993B24ACA0E900033739 /* Assets.xcassets */; };
 		01AA993F24ACA0E900033739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993D24ACA0E900033739 /* LaunchScreen.storyboard */; };
+		01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994724ACA22A00033739 /* imageResizeExtension.swift */; };
+		01AA997D24ACA22C00033739 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994824ACA22A00033739 /* Environment.swift */; };
+		01AA997E24ACA22C00033739 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994924ACA22A00033739 /* NetworkManager.swift */; };
+		01AA997F24ACA22C00033739 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994A24ACA22A00033739 /* ImagePicker.swift */; };
+		01AA998024ACA22C00033739 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994B24ACA22A00033739 /* Util.swift */; };
+		01AA998124ACA22C00033739 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AA994D24ACA22B00033739 /* Localizable.strings */; };
+		01AA998224ACA22C00033739 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA995024ACA22B00033739 /* Storyboard.storyboard */; };
+		01AA998324ACA22C00033739 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995324ACA22B00033739 /* AlertModel.swift */; };
+		01AA998424ACA22C00033739 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AA995424ACA22B00033739 /* AlertView.xib */; };
+		01AA998524ACA22C00033739 /* AlertViewDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995524ACA22B00033739 /* AlertViewDialog.swift */; };
+		01AA998624ACA22C00033739 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995624ACA22B00033739 /* CustomAlertView.swift */; };
+		01AA998724ACA22C00033739 /* CompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995A24ACA22B00033739 /* CompletionViewController.swift */; };
+		01AA998824ACA22C00033739 /* IdentityVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995B24ACA22B00033739 /* IdentityVerificationViewController.swift */; };
+		01AA998924ACA22C00033739 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995C24ACA22B00033739 /* MainViewController.swift */; };
+		01AA998A24ACA22C00033739 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995D24ACA22B00033739 /* OCRViewController.swift */; };
+		01AA998B24ACA22C00033739 /* VerificationRefultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995E24ACA22B00033739 /* VerificationRefultViewController.swift */; };
+		01AA998C24ACA22C00033739 /* UploadVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995F24ACA22B00033739 /* UploadVerificationViewController.swift */; };
+		01AA998D24ACA22C00033739 /* Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996124ACA22B00033739 /* Warning.png */; };
+		01AA998E24ACA22C00033739 /* arrow-down-sign-to-navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996224ACA22B00033739 /* arrow-down-sign-to-navigate.png */; };
+		01AA998F24ACA22C00033739 /* complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996324ACA22B00033739 /* complete.png */; };
+		01AA999024ACA22C00033739 /* down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996424ACA22B00033739 /* down-arrow.png */; };
+		01AA999124ACA22C00033739 /* id_verfication.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996524ACA22B00033739 /* id_verfication.png */; };
+		01AA999224ACA22C00033739 /* facial-recognition.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996624ACA22B00033739 /* facial-recognition.png */; };
+		01AA999324ACA22C00033739 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996724ACA22B00033739 /* alert.png */; };
+		01AA999424ACA22C00033739 /* ic_next_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996824ACA22B00033739 /* ic_next_blue.png */; };
+		01AA999524ACA22C00033739 /* ic_next_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996924ACA22B00033739 /* ic_next_white.png */; };
+		01AA999624ACA22C00033739 /* img_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996A24ACA22B00033739 /* img_error.png */; };
+		01AA999724ACA22C00033739 /* ic_action_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996B24ACA22B00033739 /* ic_action_refresh.png */; };
+		01AA999824ACA22C00033739 /* ic_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996C24ACA22B00033739 /* ic_next.png */; };
+		01AA999924ACA22C00033739 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996D24ACA22B00033739 /* error.png */; };
+		01AA999A24ACA22C00033739 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996E24ACA22B00033739 /* id-card.png */; };
+		01AA999B24ACA22C00033739 /* ic_action_complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA996F24ACA22B00033739 /* ic_action_complete.png */; };
+		01AA999C24ACA22C00033739 /* ic_action_complete_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA997024ACA22B00033739 /* ic_action_complete_blue.png */; };
+		01AA999D24ACA22C00033739 /* img_id_verification.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA997124ACA22B00033739 /* img_id_verification.png */; };
+		01AA999E24ACA22C00033739 /* back-inverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA997224ACA22B00033739 /* back-inverse.png */; };
+		01AA999F24ACA22C00033739 /* ic_action_refresh_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AA997324ACA22B00033739 /* ic_action_refresh_blue.png */; };
+		01AA99A024ACA22C00033739 /* KYCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997524ACA22B00033739 /* KYCError.swift */; };
+		01AA99A124ACA22C00033739 /* KYCResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997624ACA22B00033739 /* KYCResult.swift */; };
+		01AA99A224ACA22C00033739 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997724ACA22B00033739 /* Data.swift */; };
+		01AA99A324ACA22C00033739 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997824ACA22B00033739 /* Snapshot.swift */; };
+		01AA99A424ACA22C00033739 /* OCRResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997924ACA22B00033739 /* OCRResponse.swift */; };
+		01AA99A524ACA22C00033739 /* FaceComparisonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997A24ACA22B00033739 /* FaceComparisonResponse.swift */; };
+		01AA99A624ACA22C00033739 /* LivenessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA997B24ACA22B00033739 /* LivenessResponse.swift */; };
+		01AA99B724ACA25200033739 /* AAIImgs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01AA99AA24ACA25200033739 /* AAIImgs.bundle */; };
+		01AA99B824ACA25200033739 /* AAIAudio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01AA99AB24ACA25200033739 /* AAIAudio.bundle */; };
+		01AA99B924ACA25200033739 /* AAILanguageString.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01AA99AC24ACA25200033739 /* AAILanguageString.bundle */; };
+		01AA99BA24ACA25200033739 /* AAILivenessUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AA99B224ACA25200033739 /* AAILivenessUtil.m */; };
+		01AA99BB24ACA25200033739 /* AAIHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AA99B324ACA25200033739 /* AAIHUD.m */; };
+		01AA99BC24ACA25200033739 /* AAILivenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AA99B424ACA25200033739 /* AAILivenessViewController.m */; };
+		01AA99BD24ACA25200033739 /* AAILivenessResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AA99B524ACA25200033739 /* AAILivenessResultViewController.m */; };
+		01AA99BF24ACA31C00033739 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA99BE24ACA31C00033739 /* OCRService.swift */; };
+		01AA99C324ACA68C00033739 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AA99C224ACA68C00033739 /* Localizable.strings */; };
+		01AA99C524ACA7D000033739 /* EKYC.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA99C124ACA63800033739 /* EKYC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01AA99C824ACAE5700033739 /* AAILivenessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA99AF24ACA25200033739 /* AAILivenessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F6507B24ACE7BB00955E56 /* AAILivenessSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AA99A824ACA25200033739 /* AAILivenessSDK.framework */; };
+		01F6507C24ACE7BB00955E56 /* AAILivenessSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01AA99A824ACA25200033739 /* AAILivenessSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01F6507F24ACE9B600955E56 /* AAILivenessSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F6507E24ACE9B600955E56 /* AAILivenessSDK.h */; };
+		5C7BBC681FE360CE07BD881E /* Pods_EKYC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01F6507D24ACE7BB00955E56 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01F6507C24ACE7BB00955E56 /* AAILivenessSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		01AA992F24ACA0E700033739 /* EKYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +96,72 @@
 		01AA993B24ACA0E900033739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AA993E24ACA0E900033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AA994024ACA0E900033739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AA994724ACA22A00033739 /* imageResizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageResizeExtension.swift; sourceTree = "<group>"; };
+		01AA994824ACA22A00033739 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		01AA994924ACA22A00033739 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		01AA994A24ACA22A00033739 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		01AA994B24ACA22A00033739 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		01AA994E24ACA22B00033739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01AA994F24ACA22B00033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01AA995124ACA22B00033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		01AA995324ACA22B00033739 /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		01AA995424ACA22B00033739 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		01AA995524ACA22B00033739 /* AlertViewDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewDialog.swift; sourceTree = "<group>"; };
+		01AA995624ACA22B00033739 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		01AA995724ACA22B00033739 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01AA995824ACA22B00033739 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = id; path = id.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		01AA995A24ACA22B00033739 /* CompletionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletionViewController.swift; sourceTree = "<group>"; };
+		01AA995B24ACA22B00033739 /* IdentityVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityVerificationViewController.swift; sourceTree = "<group>"; };
+		01AA995C24ACA22B00033739 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		01AA995D24ACA22B00033739 /* OCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		01AA995E24ACA22B00033739 /* VerificationRefultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationRefultViewController.swift; sourceTree = "<group>"; };
+		01AA995F24ACA22B00033739 /* UploadVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVerificationViewController.swift; sourceTree = "<group>"; };
+		01AA996124ACA22B00033739 /* Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warning.png; sourceTree = "<group>"; };
+		01AA996224ACA22B00033739 /* arrow-down-sign-to-navigate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-sign-to-navigate.png"; sourceTree = "<group>"; };
+		01AA996324ACA22B00033739 /* complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = complete.png; sourceTree = "<group>"; };
+		01AA996424ACA22B00033739 /* down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow.png"; sourceTree = "<group>"; };
+		01AA996524ACA22B00033739 /* id_verfication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_verfication.png; sourceTree = "<group>"; };
+		01AA996624ACA22B00033739 /* facial-recognition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facial-recognition.png"; sourceTree = "<group>"; };
+		01AA996724ACA22B00033739 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		01AA996824ACA22B00033739 /* ic_next_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_next_blue.png; sourceTree = "<group>"; };
+		01AA996924ACA22B00033739 /* ic_next_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_next_white.png; sourceTree = "<group>"; };
+		01AA996A24ACA22B00033739 /* img_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_error.png; sourceTree = "<group>"; };
+		01AA996B24ACA22B00033739 /* ic_action_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_refresh.png; sourceTree = "<group>"; };
+		01AA996C24ACA22B00033739 /* ic_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_next.png; sourceTree = "<group>"; };
+		01AA996D24ACA22B00033739 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		01AA996E24ACA22B00033739 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card.png"; sourceTree = "<group>"; };
+		01AA996F24ACA22B00033739 /* ic_action_complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_complete.png; sourceTree = "<group>"; };
+		01AA997024ACA22B00033739 /* ic_action_complete_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_complete_blue.png; sourceTree = "<group>"; };
+		01AA997124ACA22B00033739 /* img_id_verification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_id_verification.png; sourceTree = "<group>"; };
+		01AA997224ACA22B00033739 /* back-inverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-inverse.png"; sourceTree = "<group>"; };
+		01AA997324ACA22B00033739 /* ic_action_refresh_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_refresh_blue.png; sourceTree = "<group>"; };
+		01AA997524ACA22B00033739 /* KYCError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCError.swift; sourceTree = "<group>"; };
+		01AA997624ACA22B00033739 /* KYCResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCResult.swift; sourceTree = "<group>"; };
+		01AA997724ACA22B00033739 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		01AA997824ACA22B00033739 /* Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
+		01AA997924ACA22B00033739 /* OCRResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRResponse.swift; sourceTree = "<group>"; };
+		01AA997A24ACA22B00033739 /* FaceComparisonResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceComparisonResponse.swift; sourceTree = "<group>"; };
+		01AA997B24ACA22B00033739 /* LivenessResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivenessResponse.swift; sourceTree = "<group>"; };
+		01AA99A824ACA25200033739 /* AAILivenessSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AAILivenessSDK.framework; sourceTree = "<group>"; };
+		01AA99AA24ACA25200033739 /* AAIImgs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAIImgs.bundle; sourceTree = "<group>"; };
+		01AA99AB24ACA25200033739 /* AAIAudio.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAIAudio.bundle; sourceTree = "<group>"; };
+		01AA99AC24ACA25200033739 /* AAILanguageString.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAILanguageString.bundle; sourceTree = "<group>"; };
+		01AA99AE24ACA25200033739 /* AAILivenessUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAILivenessUtil.h; sourceTree = "<group>"; };
+		01AA99AF24ACA25200033739 /* AAILivenessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAILivenessViewController.h; sourceTree = "<group>"; };
+		01AA99B024ACA25200033739 /* AAIHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAIHUD.h; sourceTree = "<group>"; };
+		01AA99B124ACA25200033739 /* AAILivenessResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAILivenessResultViewController.h; sourceTree = "<group>"; };
+		01AA99B224ACA25200033739 /* AAILivenessUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAILivenessUtil.m; sourceTree = "<group>"; };
+		01AA99B324ACA25200033739 /* AAIHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAIHUD.m; sourceTree = "<group>"; };
+		01AA99B424ACA25200033739 /* AAILivenessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAILivenessViewController.m; sourceTree = "<group>"; };
+		01AA99B524ACA25200033739 /* AAILivenessResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAILivenessResultViewController.m; sourceTree = "<group>"; };
+		01AA99BE24ACA31C00033739 /* OCRService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		01AA99C024ACA39400033739 /* qmodule.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = qmodule.modulemap; sourceTree = "<group>"; };
+		01AA99C124ACA63800033739 /* EKYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKYC.h; sourceTree = "<group>"; };
+		01AA99C224ACA68C00033739 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		01F6507E24ACE9B600955E56 /* AAILivenessSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAILivenessSDK.h; sourceTree = "<group>"; };
+		87E11C8067898D26162AFE32 /* Pods-EKYC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKYC.release.xcconfig"; path = "Target Support Files/Pods-EKYC/Pods-EKYC.release.xcconfig"; sourceTree = "<group>"; };
+		A164DAA221838B49C68105D9 /* Pods-EKYC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKYC.debug.xcconfig"; path = "Target Support Files/Pods-EKYC/Pods-EKYC.debug.xcconfig"; sourceTree = "<group>"; };
+		FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EKYC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F6507B24ACE7BB00955E56 /* AAILivenessSDK.framework in Frameworks */,
+				5C7BBC681FE360CE07BD881E /* Pods_EKYC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +180,11 @@
 		01AA992624ACA0E700033739 = {
 			isa = PBXGroup;
 			children = (
+				01F6507E24ACE9B600955E56 /* AAILivenessSDK.h */,
 				01AA993124ACA0E700033739 /* EKYC */,
 				01AA993024ACA0E700033739 /* Products */,
+				71F5C1307C3BF1BEBD223CD1 /* Pods */,
+				6E2F0BD6BFC4946C076847BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +199,16 @@
 		01AA993124ACA0E700033739 /* EKYC */ = {
 			isa = PBXGroup;
 			children = (
+				01AA99C224ACA68C00033739 /* Localizable.strings */,
+				01AA99C124ACA63800033739 /* EKYC.h */,
+				01AA99C024ACA39400033739 /* qmodule.modulemap */,
+				01AA99BE24ACA31C00033739 /* OCRService.swift */,
+				01AA996024ACA22B00033739 /* Assets */,
+				01AA995924ACA22B00033739 /* Controller */,
+				01AA997424ACA22B00033739 /* Model */,
+				01AA994624ACA22A00033739 /* Utility */,
+				01AA994C24ACA22B00033739 /* Views */,
+				01AA99A724ACA25200033739 /* AAILivenessSDK */,
 				01AA993224ACA0E700033739 /* AppDelegate.swift */,
 				01AA993424ACA0E700033739 /* SceneDelegate.swift */,
 				01AA993624ACA0E700033739 /* ViewController.swift */,
@@ -67,16 +220,171 @@
 			path = EKYC;
 			sourceTree = "<group>";
 		};
+		01AA994624ACA22A00033739 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				01AA994724ACA22A00033739 /* imageResizeExtension.swift */,
+				01AA994824ACA22A00033739 /* Environment.swift */,
+				01AA994924ACA22A00033739 /* NetworkManager.swift */,
+				01AA994A24ACA22A00033739 /* ImagePicker.swift */,
+				01AA994B24ACA22A00033739 /* Util.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		01AA994C24ACA22B00033739 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01AA994D24ACA22B00033739 /* Localizable.strings */,
+				01AA995024ACA22B00033739 /* Storyboard.storyboard */,
+				01AA995224ACA22B00033739 /* Alerts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01AA995224ACA22B00033739 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				01AA995324ACA22B00033739 /* AlertModel.swift */,
+				01AA995424ACA22B00033739 /* AlertView.xib */,
+				01AA995524ACA22B00033739 /* AlertViewDialog.swift */,
+				01AA995624ACA22B00033739 /* CustomAlertView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		01AA995924ACA22B00033739 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01AA995A24ACA22B00033739 /* CompletionViewController.swift */,
+				01AA995B24ACA22B00033739 /* IdentityVerificationViewController.swift */,
+				01AA995C24ACA22B00033739 /* MainViewController.swift */,
+				01AA995D24ACA22B00033739 /* OCRViewController.swift */,
+				01AA995E24ACA22B00033739 /* VerificationRefultViewController.swift */,
+				01AA995F24ACA22B00033739 /* UploadVerificationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01AA996024ACA22B00033739 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				01AA996124ACA22B00033739 /* Warning.png */,
+				01AA996224ACA22B00033739 /* arrow-down-sign-to-navigate.png */,
+				01AA996324ACA22B00033739 /* complete.png */,
+				01AA996424ACA22B00033739 /* down-arrow.png */,
+				01AA996524ACA22B00033739 /* id_verfication.png */,
+				01AA996624ACA22B00033739 /* facial-recognition.png */,
+				01AA996724ACA22B00033739 /* alert.png */,
+				01AA996824ACA22B00033739 /* ic_next_blue.png */,
+				01AA996924ACA22B00033739 /* ic_next_white.png */,
+				01AA996A24ACA22B00033739 /* img_error.png */,
+				01AA996B24ACA22B00033739 /* ic_action_refresh.png */,
+				01AA996C24ACA22B00033739 /* ic_next.png */,
+				01AA996D24ACA22B00033739 /* error.png */,
+				01AA996E24ACA22B00033739 /* id-card.png */,
+				01AA996F24ACA22B00033739 /* ic_action_complete.png */,
+				01AA997024ACA22B00033739 /* ic_action_complete_blue.png */,
+				01AA997124ACA22B00033739 /* img_id_verification.png */,
+				01AA997224ACA22B00033739 /* back-inverse.png */,
+				01AA997324ACA22B00033739 /* ic_action_refresh_blue.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		01AA997424ACA22B00033739 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01AA997524ACA22B00033739 /* KYCError.swift */,
+				01AA997624ACA22B00033739 /* KYCResult.swift */,
+				01AA997724ACA22B00033739 /* Data.swift */,
+				01AA997824ACA22B00033739 /* Snapshot.swift */,
+				01AA997924ACA22B00033739 /* OCRResponse.swift */,
+				01AA997A24ACA22B00033739 /* FaceComparisonResponse.swift */,
+				01AA997B24ACA22B00033739 /* LivenessResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01AA99A724ACA25200033739 /* AAILivenessSDK */ = {
+			isa = PBXGroup;
+			children = (
+				01AA99A824ACA25200033739 /* AAILivenessSDK.framework */,
+				01AA99A924ACA25200033739 /* Resource */,
+				01AA99AD24ACA25200033739 /* AAILiveness */,
+			);
+			path = AAILivenessSDK;
+			sourceTree = "<group>";
+		};
+		01AA99A924ACA25200033739 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				01AA99AA24ACA25200033739 /* AAIImgs.bundle */,
+				01AA99AB24ACA25200033739 /* AAIAudio.bundle */,
+				01AA99AC24ACA25200033739 /* AAILanguageString.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		01AA99AD24ACA25200033739 /* AAILiveness */ = {
+			isa = PBXGroup;
+			children = (
+				01AA99AE24ACA25200033739 /* AAILivenessUtil.h */,
+				01AA99AF24ACA25200033739 /* AAILivenessViewController.h */,
+				01AA99B024ACA25200033739 /* AAIHUD.h */,
+				01AA99B124ACA25200033739 /* AAILivenessResultViewController.h */,
+				01AA99B224ACA25200033739 /* AAILivenessUtil.m */,
+				01AA99B324ACA25200033739 /* AAIHUD.m */,
+				01AA99B424ACA25200033739 /* AAILivenessViewController.m */,
+				01AA99B524ACA25200033739 /* AAILivenessResultViewController.m */,
+			);
+			path = AAILiveness;
+			sourceTree = "<group>";
+		};
+		6E2F0BD6BFC4946C076847BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71F5C1307C3BF1BEBD223CD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A164DAA221838B49C68105D9 /* Pods-EKYC.debug.xcconfig */,
+				87E11C8067898D26162AFE32 /* Pods-EKYC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01AA99C424ACA7C000033739 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA99C524ACA7D000033739 /* EKYC.h in Headers */,
+				01F6507F24ACE9B600955E56 /* AAILivenessSDK.h in Headers */,
+				01AA99C824ACAE5700033739 /* AAILivenessViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		01AA992E24ACA0E700033739 /* EKYC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01AA994324ACA0E900033739 /* Build configuration list for PBXNativeTarget "EKYC" */;
 			buildPhases = (
+				1C5D5DFB69634210980332A2 /* [CP] Check Pods Manifest.lock */,
+				01AA99C424ACA7C000033739 /* Headers */,
 				01AA992B24ACA0E700033739 /* Sources */,
 				01AA992C24ACA0E700033739 /* Frameworks */,
 				01AA992D24ACA0E700033739 /* Resources */,
+				60E9B4F238F09211D5E13A76 /* [CP] Embed Pods Frameworks */,
+				01F6507D24ACE7BB00955E56 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +417,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 01AA992624ACA0E700033739;
 			productRefGroup = 01AA993024ACA0E700033739 /* Products */;
@@ -125,22 +434,116 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AA999C24ACA22C00033739 /* ic_action_complete_blue.png in Resources */,
+				01AA998D24ACA22C00033739 /* Warning.png in Resources */,
+				01AA999B24ACA22C00033739 /* ic_action_complete.png in Resources */,
+				01AA99B724ACA25200033739 /* AAIImgs.bundle in Resources */,
 				01AA993F24ACA0E900033739 /* LaunchScreen.storyboard in Resources */,
+				01AA999824ACA22C00033739 /* ic_next.png in Resources */,
+				01AA99B924ACA25200033739 /* AAILanguageString.bundle in Resources */,
+				01AA999E24ACA22C00033739 /* back-inverse.png in Resources */,
+				01AA999424ACA22C00033739 /* ic_next_blue.png in Resources */,
+				01AA999D24ACA22C00033739 /* img_id_verification.png in Resources */,
+				01AA999924ACA22C00033739 /* error.png in Resources */,
+				01AA998124ACA22C00033739 /* Localizable.strings in Resources */,
+				01AA999A24ACA22C00033739 /* id-card.png in Resources */,
+				01AA999F24ACA22C00033739 /* ic_action_refresh_blue.png in Resources */,
+				01AA999124ACA22C00033739 /* id_verfication.png in Resources */,
 				01AA993C24ACA0E900033739 /* Assets.xcassets in Resources */,
+				01AA999624ACA22C00033739 /* img_error.png in Resources */,
+				01AA998F24ACA22C00033739 /* complete.png in Resources */,
+				01AA999024ACA22C00033739 /* down-arrow.png in Resources */,
+				01AA99B824ACA25200033739 /* AAIAudio.bundle in Resources */,
+				01AA999224ACA22C00033739 /* facial-recognition.png in Resources */,
+				01AA998E24ACA22C00033739 /* arrow-down-sign-to-navigate.png in Resources */,
+				01AA99C324ACA68C00033739 /* Localizable.strings in Resources */,
+				01AA999724ACA22C00033739 /* ic_action_refresh.png in Resources */,
+				01AA998424ACA22C00033739 /* AlertView.xib in Resources */,
+				01AA999324ACA22C00033739 /* alert.png in Resources */,
 				01AA993A24ACA0E700033739 /* Main.storyboard in Resources */,
+				01AA999524ACA22C00033739 /* ic_next_white.png in Resources */,
+				01AA998224ACA22C00033739 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5D5DFB69634210980332A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EKYC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E9B4F238F09211D5E13A76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EKYC/Pods-EKYC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EKYC/Pods-EKYC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EKYC/Pods-EKYC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01AA992B24ACA0E700033739 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AA997E24ACA22C00033739 /* NetworkManager.swift in Sources */,
 				01AA993724ACA0E700033739 /* ViewController.swift in Sources */,
+				01AA998724ACA22C00033739 /* CompletionViewController.swift in Sources */,
+				01AA998624ACA22C00033739 /* CustomAlertView.swift in Sources */,
+				01AA99A024ACA22C00033739 /* KYCError.swift in Sources */,
+				01AA99A424ACA22C00033739 /* OCRResponse.swift in Sources */,
 				01AA993324ACA0E700033739 /* AppDelegate.swift in Sources */,
+				01AA99BF24ACA31C00033739 /* OCRService.swift in Sources */,
+				01AA99A324ACA22C00033739 /* Snapshot.swift in Sources */,
+				01AA998C24ACA22C00033739 /* UploadVerificationViewController.swift in Sources */,
+				01AA99A624ACA22C00033739 /* LivenessResponse.swift in Sources */,
+				01AA998B24ACA22C00033739 /* VerificationRefultViewController.swift in Sources */,
+				01AA99BB24ACA25200033739 /* AAIHUD.m in Sources */,
+				01AA998024ACA22C00033739 /* Util.swift in Sources */,
+				01AA998824ACA22C00033739 /* IdentityVerificationViewController.swift in Sources */,
+				01AA99BD24ACA25200033739 /* AAILivenessResultViewController.m in Sources */,
+				01AA998924ACA22C00033739 /* MainViewController.swift in Sources */,
+				01AA99A524ACA22C00033739 /* FaceComparisonResponse.swift in Sources */,
+				01AA99A224ACA22C00033739 /* Data.swift in Sources */,
+				01AA998A24ACA22C00033739 /* OCRViewController.swift in Sources */,
+				01AA997F24ACA22C00033739 /* ImagePicker.swift in Sources */,
 				01AA993524ACA0E700033739 /* SceneDelegate.swift in Sources */,
+				01AA99BC24ACA25200033739 /* AAILivenessViewController.m in Sources */,
+				01AA99BA24ACA25200033739 /* AAILivenessUtil.m in Sources */,
+				01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */,
+				01AA998324ACA22C00033739 /* AlertModel.swift in Sources */,
+				01AA997D24ACA22C00033739 /* Environment.swift in Sources */,
+				01AA99A124ACA22C00033739 /* KYCResult.swift in Sources */,
+				01AA998524ACA22C00033739 /* AlertViewDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +564,25 @@
 				01AA993E24ACA0E900033739 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01AA994D24ACA22B00033739 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AA994E24ACA22B00033739 /* en */,
+				01AA994F24ACA22B00033739 /* Base */,
+				01AA995724ACA22B00033739 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		01AA995024ACA22B00033739 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AA995124ACA22B00033739 /* Base */,
+				01AA995824ACA22B00033739 /* id */,
+			);
+			name = Storyboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,17 +704,50 @@
 		};
 		01AA994424ACA0E900033739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A164DAA221838B49C68105D9 /* Pods-EKYC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 583CM8VFJX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EKYC/AAILivenessSDK",
+				);
 				INFOPLIST_FILE = EKYC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MODULEMAP_FILE = "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessViewController.h";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JVFloatLabeledTextField\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = lk.bithub.test.EKYC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/EKYC/AAILivenessSDK/AAILiveness\"";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/EKYC.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +755,25 @@
 		};
 		01AA994524ACA0E900033739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E11C8067898D26162AFE32 /* Pods-EKYC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 583CM8VFJX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EKYC/AAILivenessSDK",
+				);
 				INFOPLIST_FILE = EKYC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MODULEMAP_FILE = "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessViewController.h";
 				PRODUCT_BUNDLE_IDENTIFIER = lk.bithub.test.EKYC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/EKYC/AAILivenessSDK/AAILiveness\"";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/EKYC.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

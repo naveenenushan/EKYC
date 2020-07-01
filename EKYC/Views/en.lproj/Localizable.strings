@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  ekyc
+
+  Created by Chamara on 12/3/19.
+  Copyright © 2019 Think. All rights reserved.
+*/
+
+"idNumber" = "Id Number";
+"passportNumber" = "Passport No";
+"licenseNumber" = "License No";
+"faceMatch" = "Face Match";
+"submitFailMsg" = "Not successful,\nResubmit your Application";
+"resubmit" = "Resubmit";
+"nationalId" = "National ID";
+"passport" = "Passport";
+"drivingLicense" = "Driving License";
+"takePhoto" = "Take a photo";
+"photoLibrary" = "Photo library";
+"cancel" = "Cancel";
+"error" = "Error";
+"incorrectIdPhoto" = "The uploaded image has some incorrect information. Please make sure to upload a clear picture of valid ID with all edges are visible";
+"detactionFail" = "We couldn’t detect the all the details. Please make sure to upload a clear picture with all edges are visible";
+"ok" = "Ok";
+"exitMsg" = "Are you sure you want to cancel KYC Process?";
+"yes" = "Yes";
+"no" = "No";
+"exit" = "Exit";
+"selectIdentificationType" = "Select Identification Type";
+"identityVerification" = "Identity Verification";
+"uploadDocument" = "Upload Document";
+"name" = "Name";
+"idNumber" = "Id Number";
+"expiryDate" = "Expiry Date";
+"placeOfBirth" = "Place Of Birth";
+"dateOfBirth" = "Date Of Birth";
+"gender" = "Gender";
+"address" = "Address";
+"city" = "City";
+"province" = "Province";
+"district" = "District";
+"village" = "Village";
+"zipCode" = "ZipCode";
+"nationality" = "Nationality";
+"occupation" = "Occupation";
+"maritalStatus" = "Martial Status";
+"bloodType" = "Blood Type";
+"religion" = "Religion";
+"proceed" = "Proceed";
+"submitSuccessMsg" = "Successfully Submitted";
+"complete" = "Complete";
+"faceMatching" = "Face matching";
+"personProbability" = "Probability of same person:";
+"moreDetail" = "More details";
+"livenessDetactionFail" = "Liveness detection failed, please try again";

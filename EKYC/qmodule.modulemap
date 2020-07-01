@@ -1,0 +1,7 @@
+
+module EKYC  {
+    header "AAILivenessSDK/AAILiveness/AAILivenessViewController.h"
+    
+    export *
+}
+
