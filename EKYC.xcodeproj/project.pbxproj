@@ -194,7 +194,7 @@
 				01AA99C024ACA39400033739 /* qmodule.modulemap */,
 				01AA99BE24ACA31C00033739 /* OCRService.swift */,
 				01AA996024ACA22B00033739 /* Assets */,
-				01AA995924ACA22B00033739 /* Controller */,
+				01AA995924ACA22B00033739 /* Classes */,
 				01AA997424ACA22B00033739 /* Model */,
 				01AA994624ACA22A00033739 /* Utility */,
 				01AA994C24ACA22B00033739 /* Views */,
@@ -238,7 +238,7 @@
 			path = Alerts;
 			sourceTree = "<group>";
 		};
-		01AA995924ACA22B00033739 /* Controller */ = {
+		01AA995924ACA22B00033739 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				01AA995A24ACA22B00033739 /* CompletionViewController.swift */,
@@ -248,7 +248,7 @@
 				01AA995E24ACA22B00033739 /* VerificationRefultViewController.swift */,
 				01AA995F24ACA22B00033739 /* UploadVerificationViewController.swift */,
 			);
-			path = Controller;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		01AA996024ACA22B00033739 /* Assets */ = {

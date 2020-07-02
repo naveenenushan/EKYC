@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EKYC"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "A short description of EKYC."
 
   # This description is used to generate tags and improve search results.
@@ -90,10 +90,12 @@ spec.platform     = :ios, "12.0"
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  spec.source_files  = "Classes", "EKYC/**/*.{h,m,swift}"
   
-  spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
+spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
+
+  spec.source_files  = "Classes", "EKYC/Classes/*.swift"
+  
+  
   
   spec.exclude_files = "Classes/Exclude"
 
