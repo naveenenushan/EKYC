@@ -80,7 +80,7 @@ spec.platform     = :ios, "12.0"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/YourUserName/YourProjectName.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/naveenenushan/EKYC.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
