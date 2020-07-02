@@ -1,0 +1,517 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkManager"
+provides-nominal:
+- "4EKYC14NetworkManagerC"
+provides-member:
+- ["4EKYC14NetworkManagerC", ""]
+provides-dynamic-lookup:
+- "getAccessToken"
+- "getFaceCompare"
+- "getLivenessCredentials"
+- "getLivenessDetection"
+- "getSummaryDetails"
+- "shared"
+- "sharedNetworkManager"
+- "submitKYC"
+- "updateOcrInfo"
+- "uploadOcrImage"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "AF"
+- "Bool"
+- "BooleanLiteralType"
+- !private "COUNTRYCODE"
+- !private "DOCUMENTTYPE"
+- !private "DispatchQueue"
+- !private "EKYCTOKEN"
+- "Error"
+- "FloatLiteralType"
+- !private "HTTPHeaders"
+- "IntegerLiteralType"
+- "JSON"
+- !private "JSONEncoding"
+- !private "NSError"
+- !private "NSLocalizedDescriptionKey"
+- "NetworkManager"
+- !private "REFERENCEID"
+- !private "SUBSCRIPTION"
+- !private "SVProgressHUD"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- !private "UInt64"
+- !private "URL"
+- !private "URLEncoding"
+- !private "eKYCApiConst"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["8DropDown10AnchorViewP", "dismiss"]
+- !private ["8DropDown10AnchorViewP", "setDefaultMaskType"]
+- !private ["8DropDown10AnchorViewP", "show"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "dismiss"]
+- !private ["So15CALayerDelegateP", "setDefaultMaskType"]
+- !private ["So15CALayerDelegateP", "show"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "setDefaultMaskType"]
+- !private ["s7CVarArgP", "show"]
+- !private ["s7CVarArgP", "wxCompress"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "setDefaultMaskType"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "wxCompress"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "setDefaultMaskType"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "wxCompress"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "error"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- !private ["SQ", "async"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "main"]
+- !private ["SQ", "post"]
+- !private ["SQ", "put"]
+- !private ["SQ", "response"]
+- !private ["SQ", "setDefaultMaskType"]
+- !private ["SQ", "show"]
+- !private ["SQ", "wxCompress"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["9Alamofire10HTTPMethodV", "get"]
+- !private ["9Alamofire10HTTPMethodV", "post"]
+- !private ["9Alamofire10HTTPMethodV", "put"]
+- !private ["SH", "async"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "clear"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "main"]
+- !private ["SH", "post"]
+- !private ["SH", "put"]
+- !private ["SH", "response"]
+- !private ["SH", "setDefaultMaskType"]
+- !private ["SH", "show"]
+- !private ["SH", "wxCompress"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["9Alamofire12JSONEncodingV", "default"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["9Alamofire17MultipartFormDataC", "append"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "setDefaultMaskType"]
+- !private ["So8NSCodingP", "show"]
+- !private ["So8NSCodingP", "wxCompress"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderReadingP", "wxCompress"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "wxCompress"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "setDefaultMaskType"]
+- !private ["So8NSObjectC", "show"]
+- !private ["So8NSObjectC", "wxCompress"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "setDefaultMaskType"]
+- !private ["So8NSObjectP", "show"]
+- !private ["So8NSObjectP", "wxCompress"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["So14NSSecureCodingP", "wxCompress"]
+- !private ["4EKYC14NetworkManagerC", "AF"]
+- ["4EKYC14NetworkManagerC", "Bool"]
+- !private ["4EKYC14NetworkManagerC", "COUNTRYCODE"]
+- !private ["4EKYC14NetworkManagerC", "DOCUMENTTYPE"]
+- !private ["4EKYC14NetworkManagerC", "DispatchQueue"]
+- !private ["4EKYC14NetworkManagerC", "EKYCTOKEN"]
+- ["4EKYC14NetworkManagerC", "Error"]
+- !private ["4EKYC14NetworkManagerC", "HTTPHeaders"]
+- ["4EKYC14NetworkManagerC", "JSON"]
+- !private ["4EKYC14NetworkManagerC", "JSONEncoding"]
+- !private ["4EKYC14NetworkManagerC", "NSError"]
+- !private ["4EKYC14NetworkManagerC", "NSLocalizedDescriptionKey"]
+- ["4EKYC14NetworkManagerC", "NetworkManager"]
+- !private ["4EKYC14NetworkManagerC", "REFERENCEID"]
+- !private ["4EKYC14NetworkManagerC", "SUBSCRIPTION"]
+- !private ["4EKYC14NetworkManagerC", "SVProgressHUD"]
+- ["4EKYC14NetworkManagerC", "String"]
+- ["4EKYC14NetworkManagerC", "UIImage"]
+- !private ["4EKYC14NetworkManagerC", "UInt64"]
+- !private ["4EKYC14NetworkManagerC", "URL"]
+- !private ["4EKYC14NetworkManagerC", "URLEncoding"]
+- ["4EKYC14NetworkManagerC", "deinit"]
+- !private ["4EKYC14NetworkManagerC", "eKYCApiConst"]
+- ["4EKYC14NetworkManagerC", "getAccessToken"]
+- ["4EKYC14NetworkManagerC", "getFaceCompare"]
+- ["4EKYC14NetworkManagerC", "getLivenessCredentials"]
+- ["4EKYC14NetworkManagerC", "getLivenessDetection"]
+- ["4EKYC14NetworkManagerC", "getSummaryDetails"]
+- ["4EKYC14NetworkManagerC", "init"]
+- ["4EKYC14NetworkManagerC", "shared"]
+- !private ["4EKYC14NetworkManagerC", "sharedNetworkManager"]
+- ["4EKYC14NetworkManagerC", "submitKYC"]
+- ["4EKYC14NetworkManagerC", "updateOcrInfo"]
+- ["4EKYC14NetworkManagerC", "uploadOcrImage"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "callAsFunction"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["9Alamofire17ParameterEncodingP", "init"]
+- !private ["SY", "clear"]
+- !private ["SY", "get"]
+- !private ["SY", "init"]
+- !private ["SY", "post"]
+- !private ["SY", "put"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire15RequestDelegateP", "request"]
+- !private ["9Alamofire15RequestDelegateP", "upload"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["So13SVProgressHUDC", "dismiss"]
+- !private ["So13SVProgressHUDC", "setDefaultMaskType"]
+- !private ["So13SVProgressHUDC", "show"]
+- !private ["So21SVProgressHUDMaskTypeV", "clear"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "init"]
+- !private ["9Alamofire7SessionC", "request"]
+- !private ["9Alamofire7SessionC", "upload"]
+- !private ["9Alamofire20SessionStateProviderP", "request"]
+- !private ["9Alamofire20SessionStateProviderP", "upload"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "dismiss"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So29UIAccessibilityIdentificationP", "setDefaultMaskType"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
+- !private ["So29UIAccessibilityIdentificationP", "wxCompress"]
+- !private ["So12UIAppearanceP", "dismiss"]
+- !private ["So12UIAppearanceP", "setDefaultMaskType"]
+- !private ["So12UIAppearanceP", "show"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "setDefaultMaskType"]
+- !private ["So21UIAppearanceContainerP", "show"]
+- !private ["So17UICoordinateSpaceP", "dismiss"]
+- !private ["So17UICoordinateSpaceP", "setDefaultMaskType"]
+- !private ["So17UICoordinateSpaceP", "show"]
+- !private ["So13UIDynamicItemP", "dismiss"]
+- !private ["So13UIDynamicItemP", "setDefaultMaskType"]
+- !private ["So13UIDynamicItemP", "show"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UIFocusEnvironmentP", "show"]
+- !private ["So11UIFocusItemP", "dismiss"]
+- !private ["So11UIFocusItemP", "setDefaultMaskType"]
+- !private ["So11UIFocusItemP", "show"]
+- !private ["So20UIFocusItemContainerP", "dismiss"]
+- !private ["So20UIFocusItemContainerP", "setDefaultMaskType"]
+- !private ["So20UIFocusItemContainerP", "show"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So7UIImageC", "wxCompress"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "wxCompress"]
+- !private ["So24UILargeContentViewerItemP", "dismiss"]
+- !private ["So24UILargeContentViewerItemP", "setDefaultMaskType"]
+- !private ["So24UILargeContentViewerItemP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "setDefaultMaskType"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "setDefaultMaskType"]
+- !private ["So11UIResponderC", "show"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "setDefaultMaskType"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UITraitEnvironmentP", "show"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "setDefaultMaskType"]
+- !private ["So23UIUserActivityRestoringP", "show"]
+- !private ["So6UIViewC", "dismiss"]
+- !private ["So6UIViewC", "setDefaultMaskType"]
+- !private ["So6UIViewC", "show"]
+- !private ["s6UInt64V", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire11URLEncodingV", "init"]
+- !private ["SU", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s26_ExpressibleByImageLiteralP", "wxCompress"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDefaultMaskType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wxCompress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jpegData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setDefaultMaskType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "show"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wxCompress"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dismiss"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setDefaultMaskType"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "show"]
+- !private ["4EKYC12eKYCApiConstV", "BASEURL"]
+- !private ["4EKYC12eKYCApiConstV", "EKYCBASEURL"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "8DropDown10AnchorViewP"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "9Alamofire10HTTPMethodV"
+- !private "SH"
+- !private "10SwiftyJSON0B0V"
+- !private "9Alamofire12JSONEncodingV"
+- !private "s25LosslessStringConvertibleP"
+- !private "9Alamofire17MultipartFormDataC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "4EKYC14NetworkManagerC"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire15RequestDelegateP"
+- !private "s10SIMDScalarP"
+- !private "So13SVProgressHUDC"
+- !private "So21SVProgressHUDMaskTypeV"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "9Alamofire7SessionC"
+- !private "9Alamofire20SessionStateProviderP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s6UInt64V"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
+- !private "SU"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "4EKYC12eKYCApiConstV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/EKYC.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAIHUD.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessSDK.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILocalizationUtil.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessUtil.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessViewController.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessResultViewController.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAIDetectionConstant.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessWrapView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/NSString+TextDirectionality.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3d557a8bf64148c72b6d217911e2d66c"

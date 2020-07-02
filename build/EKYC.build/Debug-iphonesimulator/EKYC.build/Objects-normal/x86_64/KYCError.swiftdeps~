@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KYCError"
+- "KycError"
+provides-nominal:
+- "4EKYC8KYCErrorV"
+- "4EKYC8KycErrorO"
+provides-member:
+- ["4EKYC8KYCErrorV", ""]
+- ["4EKYC8KycErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "KYCError"
+- "KycError"
+- "String"
+- !private "StringLiteralType"
+- !private "~="
+depends-member:
+- ["SK", "init"]
+- ["s7CVarArgP", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "FACE_COMPARISON_CANCELLED"]
+- !private ["SQ", "FACE_COMPARISON_FAILED"]
+- !private ["SQ", "IMAGE_PROCESSING_FAILED"]
+- !private ["SQ", "INVALID_CLIENT"]
+- !private ["SQ", "INVALID_FILE_SIZE"]
+- !private ["SQ", "INVALID_FILE_STREAM"]
+- !private ["SQ", "INVALID_PARAMETER"]
+- !private ["SQ", "INVALID_REFERENCE_ID"]
+- !private ["SQ", "INVALID_REQUEST"]
+- !private ["SQ", "KYCError"]
+- !private ["SQ", "LIVENESSS_CANCELLED"]
+- !private ["SQ", "LIVENESS_FAILED"]
+- !private ["SQ", "LIVENESS_INFO_NOT_FOUND"]
+- !private ["SQ", "NETWORK_LOST"]
+- !private ["SQ", "NO_CAMERA_PERMISSION"]
+- !private ["SQ", "OCR_CANCELLED"]
+- !private ["SQ", "OCR_FAILED"]
+- !private ["SQ", "SERVER_ERROR"]
+- !private ["SQ", "UNKNOWN_ERROR"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["s5ErrorP", "=="]
+- !private ["s5ErrorP", "FACE_COMPARISON_CANCELLED"]
+- !private ["s5ErrorP", "FACE_COMPARISON_FAILED"]
+- !private ["s5ErrorP", "IMAGE_PROCESSING_FAILED"]
+- !private ["s5ErrorP", "INVALID_CLIENT"]
+- !private ["s5ErrorP", "INVALID_FILE_SIZE"]
+- !private ["s5ErrorP", "INVALID_FILE_STREAM"]
+- !private ["s5ErrorP", "INVALID_PARAMETER"]
+- !private ["s5ErrorP", "INVALID_REFERENCE_ID"]
+- !private ["s5ErrorP", "INVALID_REQUEST"]
+- !private ["s5ErrorP", "KYCError"]
+- !private ["s5ErrorP", "LIVENESSS_CANCELLED"]
+- !private ["s5ErrorP", "LIVENESS_FAILED"]
+- !private ["s5ErrorP", "LIVENESS_INFO_NOT_FOUND"]
+- !private ["s5ErrorP", "NETWORK_LOST"]
+- !private ["s5ErrorP", "NO_CAMERA_PERMISSION"]
+- !private ["s5ErrorP", "OCR_CANCELLED"]
+- !private ["s5ErrorP", "OCR_FAILED"]
+- !private ["s5ErrorP", "SERVER_ERROR"]
+- !private ["s5ErrorP", "UNKNOWN_ERROR"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "=="]
+- !private ["SH", "FACE_COMPARISON_CANCELLED"]
+- !private ["SH", "FACE_COMPARISON_FAILED"]
+- !private ["SH", "IMAGE_PROCESSING_FAILED"]
+- !private ["SH", "INVALID_CLIENT"]
+- !private ["SH", "INVALID_FILE_SIZE"]
+- !private ["SH", "INVALID_FILE_STREAM"]
+- !private ["SH", "INVALID_PARAMETER"]
+- !private ["SH", "INVALID_REFERENCE_ID"]
+- !private ["SH", "INVALID_REQUEST"]
+- !private ["SH", "KYCError"]
+- !private ["SH", "LIVENESSS_CANCELLED"]
+- !private ["SH", "LIVENESS_FAILED"]
+- !private ["SH", "LIVENESS_INFO_NOT_FOUND"]
+- !private ["SH", "NETWORK_LOST"]
+- !private ["SH", "NO_CAMERA_PERMISSION"]
+- !private ["SH", "OCR_CANCELLED"]
+- !private ["SH", "OCR_FAILED"]
+- !private ["SH", "SERVER_ERROR"]
+- !private ["SH", "UNKNOWN_ERROR"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["s6HasherV", "combine"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["4EKYC8KYCErrorV", "KycError"]
+- ["4EKYC8KYCErrorV", "String"]
+- ["4EKYC8KYCErrorV", "error"]
+- ["4EKYC8KYCErrorV", "init"]
+- ["4EKYC8KYCErrorV", "message"]
+- ["4EKYC8KycErrorO", "=="]
+- ["4EKYC8KycErrorO", "FACE_COMPARISON_CANCELLED"]
+- ["4EKYC8KycErrorO", "FACE_COMPARISON_FAILED"]
+- ["4EKYC8KycErrorO", "IMAGE_PROCESSING_FAILED"]
+- ["4EKYC8KycErrorO", "INVALID_CLIENT"]
+- ["4EKYC8KycErrorO", "INVALID_FILE_SIZE"]
+- ["4EKYC8KycErrorO", "INVALID_FILE_STREAM"]
+- ["4EKYC8KycErrorO", "INVALID_PARAMETER"]
+- ["4EKYC8KycErrorO", "INVALID_REFERENCE_ID"]
+- ["4EKYC8KycErrorO", "INVALID_REQUEST"]
+- ["4EKYC8KycErrorO", "KYCError"]
+- ["4EKYC8KycErrorO", "LIVENESSS_CANCELLED"]
+- ["4EKYC8KycErrorO", "LIVENESS_FAILED"]
+- ["4EKYC8KycErrorO", "LIVENESS_INFO_NOT_FOUND"]
+- ["4EKYC8KycErrorO", "NETWORK_LOST"]
+- ["4EKYC8KycErrorO", "NO_CAMERA_PERMISSION"]
+- ["4EKYC8KycErrorO", "OCR_CANCELLED"]
+- ["4EKYC8KycErrorO", "OCR_FAILED"]
+- ["4EKYC8KycErrorO", "SERVER_ERROR"]
+- ["4EKYC8KycErrorO", "String"]
+- ["4EKYC8KycErrorO", "UNKNOWN_ERROR"]
+- ["4EKYC8KycErrorO", "__derived_enum_equals"]
+- ["4EKYC8KycErrorO", "_code"]
+- ["4EKYC8KycErrorO", "_domain"]
+- ["4EKYC8KycErrorO", "_getEmbeddedNSError"]
+- ["4EKYC8KycErrorO", "_rawHashValue"]
+- ["4EKYC8KycErrorO", "_userInfo"]
+- ["4EKYC8KycErrorO", "checkErrorCode"]
+- ["4EKYC8KycErrorO", "deinit"]
+- ["4EKYC8KycErrorO", "hash"]
+- ["4EKYC8KycErrorO", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "4EKYC8KYCErrorV"
+- "4EKYC8KycErrorO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessSDK.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILocalizationUtil.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAIDetectionConstant.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessWrapView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/NSString+TextDirectionality.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e74a1811ef0c1c4d491f484c4eeab180"

@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlertViewDialog"
+provides-nominal:
+- "4EKYC15AlertViewDialogC"
+provides-member:
+- ["4EKYC15AlertViewDialogC", ""]
+provides-dynamic-lookup:
+- "btnLeft"
+- "btnRight"
+- "buttonSeperator"
+- "lblMessage"
+- "lblTitle"
+- "messageBottomConstraint"
+- "messageTextView"
+- "messageTopConstraint"
+- "shortMessageLabel"
+- "titleBottomConstraint"
+- "titleTopConstraint"
+- "viewBackground"
+- "viewSeperator"
+depends-top-level:
+- "AlertViewDialog"
+- "NSLayoutConstraint"
+- "UIButton"
+- "UILabel"
+- "UITextView"
+- "UIView"
+depends-member:
+- ["4EKYC15AlertViewDialogC", "NSLayoutConstraint"]
+- ["4EKYC15AlertViewDialogC", "UIButton"]
+- ["4EKYC15AlertViewDialogC", "UILabel"]
+- ["4EKYC15AlertViewDialogC", "UITextView"]
+- ["4EKYC15AlertViewDialogC", "UIView"]
+- ["4EKYC15AlertViewDialogC", "btnLeft"]
+- ["4EKYC15AlertViewDialogC", "btnRight"]
+- ["4EKYC15AlertViewDialogC", "buttonSeperator"]
+- ["4EKYC15AlertViewDialogC", "deinit"]
+- ["4EKYC15AlertViewDialogC", "init"]
+- ["4EKYC15AlertViewDialogC", "lblMessage"]
+- ["4EKYC15AlertViewDialogC", "lblTitle"]
+- ["4EKYC15AlertViewDialogC", "messageBottomConstraint"]
+- ["4EKYC15AlertViewDialogC", "messageTextView"]
+- ["4EKYC15AlertViewDialogC", "messageTopConstraint"]
+- ["4EKYC15AlertViewDialogC", "shortMessageLabel"]
+- ["4EKYC15AlertViewDialogC", "titleBottomConstraint"]
+- ["4EKYC15AlertViewDialogC", "titleTopConstraint"]
+- ["4EKYC15AlertViewDialogC", "viewBackground"]
+- ["4EKYC15AlertViewDialogC", "viewSeperator"]
+- ["8DropDown10AnchorViewP", ""]
+- ["So15CALayerDelegateP", ""]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", ""]
+- ["SQ", ""]
+- ["SH", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "btnLeft"]
+- ["So8NSObjectC", "btnRight"]
+- ["So8NSObjectC", "buttonSeperator"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lblMessage"]
+- ["So8NSObjectC", "lblTitle"]
+- ["So8NSObjectC", "messageBottomConstraint"]
+- ["So8NSObjectC", "messageTextView"]
+- ["So8NSObjectC", "messageTopConstraint"]
+- ["So8NSObjectC", "shortMessageLabel"]
+- ["So8NSObjectC", "titleBottomConstraint"]
+- ["So8NSObjectC", "titleTopConstraint"]
+- ["So8NSObjectC", "viewBackground"]
+- ["So8NSObjectC", "viewSeperator"]
+- ["So8NSObjectP", ""]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So12UIAppearanceP", ""]
+- ["So21UIAppearanceContainerP", ""]
+- ["So17UICoordinateSpaceP", ""]
+- ["So13UIDynamicItemP", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", ""]
+- ["So20UIFocusItemContainerP", ""]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "btnLeft"]
+- ["So11UIResponderC", "btnRight"]
+- ["So11UIResponderC", "buttonSeperator"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lblMessage"]
+- ["So11UIResponderC", "lblTitle"]
+- ["So11UIResponderC", "messageBottomConstraint"]
+- ["So11UIResponderC", "messageTextView"]
+- ["So11UIResponderC", "messageTopConstraint"]
+- ["So11UIResponderC", "shortMessageLabel"]
+- ["So11UIResponderC", "titleBottomConstraint"]
+- ["So11UIResponderC", "titleTopConstraint"]
+- ["So11UIResponderC", "viewBackground"]
+- ["So11UIResponderC", "viewSeperator"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So18UITraitEnvironmentP", ""]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UITextView"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "btnLeft"]
+- ["So6UIViewC", "btnRight"]
+- ["So6UIViewC", "buttonSeperator"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "lblMessage"]
+- ["So6UIViewC", "lblTitle"]
+- ["So6UIViewC", "messageBottomConstraint"]
+- ["So6UIViewC", "messageTextView"]
+- ["So6UIViewC", "messageTopConstraint"]
+- ["So6UIViewC", "shortMessageLabel"]
+- ["So6UIViewC", "titleBottomConstraint"]
+- ["So6UIViewC", "titleTopConstraint"]
+- ["So6UIViewC", "viewBackground"]
+- ["So6UIViewC", "viewSeperator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+depends-nominal:
+- "4EKYC15AlertViewDialogC"
+- "8DropDown10AnchorViewP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessSDK.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILocalizationUtil.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAIDetectionConstant.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessWrapView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/NSString+TextDirectionality.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphonesimulator/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dd1c4066030d6397564afeebec6a2dd4"

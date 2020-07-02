@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "eKYCApiConst"
+- "Utils"
+- "CLIENTID"
+- "SECRET"
+- "EKYCTOKEN"
+- "SUBSCRIPTION"
+- "COUNTRYCODE"
+- "CALLBACKURL"
+- "REFERENCEID"
+- "ENABLERESULTSCREEN"
+- "DOCUMENTTYPE"
+- "OCRATTACHMENTID"
+- "LIVENESSID"
+- "LIVENESSSNAPSHOTID"
+- "OCRINFOID"
+- "TITLETEXTCOLOR"
+- "TITLEBACKGROUNDCOLOR"
+- "BACKGROUNDCOLOR"
+- "LIVENESSIMAGE"
+- "ALLOWIMAGEUPLOADFROMGALLERY"
+- "ONLYFRONTSIDE"
+- "BUTTONCOLOR"
+- "IGNOREOCRSCREEN"
+provides-nominal:
+- "4EKYC12eKYCApiConstV"
+- "4EKYC5UtilsC"
+provides-member:
+- ["4EKYC12eKYCApiConstV", ""]
+- ["4EKYC5UtilsC", ""]
+provides-dynamic-lookup:
+- "displayError"
+- "isValidIdNumberWithDOB"
+depends-top-level:
+- !private "!="
+- !private "-"
+- !private "..<"
+- "/"
+- !private "=="
+- "ALLOWIMAGEUPLOADFROMGALLERY"
+- "AssignmentPrecedence"
+- "BACKGROUNDCOLOR"
+- "BUTTONCOLOR"
+- "Bool"
+- "BooleanLiteralType"
+- "CALLBACKURL"
+- "CLIENTID"
+- "COUNTRYCODE"
+- !private "CustomAlertView"
+- "DOCUMENTTYPE"
+- !private "DateFormatter"
+- "EKYCTOKEN"
+- "ENABLERESULTSCREEN"
+- "FloatLiteralType"
+- "IGNOREOCRSCREEN"
+- !private "Int"
+- "IntegerLiteralType"
+- "LIVENESSID"
+- "LIVENESSIMAGE"
+- "LIVENESSSNAPSHOTID"
+- "OCRATTACHMENTID"
+- "OCRINFOID"
+- "ONLYFRONTSIDE"
+- "REFERENCEID"
+- "SECRET"
+- "SUBSCRIPTION"
+- "String"
+- "StringLiteralType"
+- !private "Substring"
+- "TITLEBACKGROUNDCOLOR"
+- "TITLETEXTCOLOR"
+- "UIColor"
+- "UIImage"
+- !private "UnicodeScalarType"
+- "Utils"
+- !private "Void"
+- "eKYCApiConst"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["8DropDown10AnchorViewP", "CustomAlertViewBuilder"]
+- !private ["8DropDown10AnchorViewP", "show"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "index"]
+- !private ["SK", "init"]
+- !private ["SK", "prefix"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "suffix"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "CustomAlertViewBuilder"]
+- !private ["So15CALayerDelegateP", "show"]
+- !private ["s7CVarArgP", "CustomAlertViewBuilder"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "index"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "show"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "white"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "suffix"]
+- !private ["SL", "endIndex"]
+- !private ["SL", "index"]
+- !private ["SL", "init"]
+- !private ["SL", "prefix"]
+- !private ["SL", "startIndex"]
+- !private ["SL", "subscript"]
+- !private ["SL", "suffix"]
+- !private ["4EKYC15CustomAlertViewC", "CustomAlertViewBuilder"]
+- !private ["4EKYC15CustomAlertViewC", "deinit"]
+- !private ["4EKYC15CustomAlertViewC", "show"]
+- !private ["4EKYC15CustomAlertViewC0bcD7BuilderC", "build"]
+- !private ["4EKYC15CustomAlertViewC0bcD7BuilderC", "init"]
+- !private ["4EKYC15CustomAlertViewC0bcD7BuilderC", "setRightButton"]
+- !private ["s28CustomDebugStringConvertibleP", "CustomAlertViewBuilder"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "CustomAlertViewBuilder"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- ["s23CustomStringConvertibleP", "white"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "index"]
+- !private ["Se", "init"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "index"]
+- !private ["SE", "init"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "CustomAlertViewBuilder"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "index"]
+- ["SQ", "init"]
+- !private ["SQ", "prefix"]
+- !private ["SQ", "show"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "suffix"]
+- ["SQ", "white"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "endIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "index"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "suffix"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "endIndex"]
+- !private ["s32ExpressibleByStringInterpolationP", "index"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "prefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "startIndex"]
+- !private ["s32ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "suffix"]
+- !private ["s26ExpressibleByStringLiteralP", "endIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "index"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- !private ["s26ExpressibleByStringLiteralP", "startIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "suffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "endIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "index"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "startIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "suffix"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "CustomAlertViewBuilder"]
+- !private ["SH", "date"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "endIndex"]
+- !private ["SH", "index"]
+- ["SH", "init"]
+- !private ["SH", "prefix"]
+- !private ["SH", "show"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "suffix"]
+- ["SH", "white"]
+- !private ["Si", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "index"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "startIndex"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "endIndex"]
+- !private ["s25LosslessStringConvertibleP", "index"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- !private ["s25LosslessStringConvertibleP", "startIndex"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "suffix"]
+- !private ["s10MirrorPathP", "index"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "startIndex"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["4EKYC5ModalP", "CustomAlertViewBuilder"]
+- !private ["4EKYC5ModalP", "show"]
+- !private ["So8NSCodingP", "CustomAlertViewBuilder"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "index"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "show"]
+- !private ["So8NSCodingP", "startIndex"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "subscript"]
+- ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "index"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "startIndex"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "subscript"]
+- ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "index"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "startIndex"]
+- !private ["So21NSItemProviderReadingP", "subscript"]
+- ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "index"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "startIndex"]
+- !private ["So21NSItemProviderWritingP", "subscript"]
+- ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "index"]
+- !private ["So16NSMutableCopyingP", "startIndex"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "CustomAlertViewBuilder"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "index"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "show"]
+- !private ["So8NSObjectC", "startIndex"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "CustomAlertViewBuilder"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "index"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "show"]
+- !private ["So8NSObjectP", "startIndex"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "subscript"]
+- ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "index"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "startIndex"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "index"]
+- !private ["So8NSStringC", "startIndex"]
+- !private ["So8NSStringC", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "index"]
+- !private ["Sm", "init"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "suffix"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "prefix"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "suffix"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "index"]
+- !private ["SS", "init"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "endIndex"]
+- !private ["Sy", "index"]
+- !private ["Sy", "init"]
+- !private ["Sy", "prefix"]
+- !private ["Sy", "startIndex"]
+- !private ["Sy", "subscript"]
+- !private ["Sy", "suffix"]
+- !private ["Ss", "endIndex"]
+- !private ["Ss", "index"]
+- !private ["Ss", "init"]
+- !private ["Ss", "prefix"]
+- !private ["Ss", "startIndex"]
+- !private ["Ss", "subscript"]
+- !private ["Ss", "suffix"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "endIndex"]
+- !private ["s16TextOutputStreamP", "index"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- !private ["s16TextOutputStreamP", "startIndex"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s16TextOutputStreamP", "suffix"]
+- !private ["s20TextOutputStreamableP", "endIndex"]
+- !private ["s20TextOutputStreamableP", "index"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["s20TextOutputStreamableP", "startIndex"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["s20TextOutputStreamableP", "suffix"]
+- !private ["So29UIAccessibilityIdentificationP", "CustomAlertViewBuilder"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
+- !private ["So12UIAppearanceP", "CustomAlertViewBuilder"]
+- !private ["So12UIAppearanceP", "show"]
+- !private ["So21UIAppearanceContainerP", "CustomAlertViewBuilder"]
+- !private ["So21UIAppearanceContainerP", "show"]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "CustomAlertViewBuilder"]
+- !private ["So17UICoordinateSpaceP", "show"]
+- !private ["So13UIDynamicItemP", "CustomAlertViewBuilder"]
+- !private ["So13UIDynamicItemP", "show"]
+- !private ["So18UIFocusEnvironmentP", "CustomAlertViewBuilder"]
+- !private ["So18UIFocusEnvironmentP", "show"]
+- !private ["So11UIFocusItemP", "CustomAlertViewBuilder"]
+- !private ["So11UIFocusItemP", "show"]
+- !private ["So20UIFocusItemContainerP", "CustomAlertViewBuilder"]
+- !private ["So20UIFocusItemContainerP", "show"]
+- ["So7UIImageC", "init"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So24UILargeContentViewerItemP", "CustomAlertViewBuilder"]
+- !private ["So24UILargeContentViewerItemP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "CustomAlertViewBuilder"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
+- !private ["So11UIResponderC", "CustomAlertViewBuilder"]
+- !private ["So11UIResponderC", "show"]
+- !private ["So30UIResponderStandardEditActionsP", "CustomAlertViewBuilder"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
+- !private ["So18UITraitEnvironmentP", "CustomAlertViewBuilder"]
+- !private ["So18UITraitEnvironmentP", "show"]
+- !private ["So23UIUserActivityRestoringP", "CustomAlertViewBuilder"]
+- !private ["So23UIUserActivityRestoringP", "show"]
+- !private ["So6UIViewC", "CustomAlertViewBuilder"]
+- !private ["So6UIViewC", "show"]
+- !private ["9Alamofire14URLConvertibleP", "index"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "startIndex"]
+- !private ["9Alamofire14URLConvertibleP", "subscript"]
+- ["4EKYC5UtilsC", "Bool"]
+- !private ["4EKYC5UtilsC", "CustomAlertView"]
+- !private ["4EKYC5UtilsC", "DateFormatter"]
+- !private ["4EKYC5UtilsC", "Int"]
+- ["4EKYC5UtilsC", "String"]
+- !private ["4EKYC5UtilsC", "Substring"]
+- !private ["4EKYC5UtilsC", "Void"]
+- ["4EKYC5UtilsC", "deinit"]
+- ["4EKYC5UtilsC", "displayError"]
+- ["4EKYC5UtilsC", "init"]
+- ["4EKYC5UtilsC", "isValidIdNumberWithDOB"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "endIndex"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "index"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "startIndex"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "suffix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "index"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "startIndex"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "index"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "startIndex"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "endIndex"]
+- !private ["s19_HasContiguousBytesP", "index"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "startIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "suffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CustomAlertViewBuilder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "index"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CustomAlertViewBuilder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "index"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "show"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startIndex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CustomAlertViewBuilder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "show"]
+- ["4EKYC12eKYCApiConstV", "BASEURL"]
+- ["4EKYC12eKYCApiConstV", "EKYCBASEURL"]
+- ["4EKYC12eKYCApiConstV", "GRANT_TYPE"]
+- ["4EKYC12eKYCApiConstV", "SCOPE"]
+- ["4EKYC12eKYCApiConstV", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "8DropDown10AnchorViewP"
+- !private "SK"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "4EKYC15CustomAlertViewC"
+- !private "4EKYC15CustomAlertViewC0bcD7BuilderC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "Si"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "4EKYC5ModalP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So7UIImageC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- "4EKYC5UtilsC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "4EKYC12eKYCApiConstV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/EKYC.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAIHUD.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessSDK.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextField.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILocalizationUtil.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessUtil.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessViewController.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILiveness/AAILivenessResultViewController.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAIDetectionConstant.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/AAILivenessWrapView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/JVFloatLabeledTextView.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Headers/NSString+TextDirectionality.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/EKYC/AAILivenessSDK/AAILivenessSDK.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/JVFloatLabeledTextField/JVFloatLabeledTextField.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "22cd742060a3eee8df58afc1b2a6bc43"

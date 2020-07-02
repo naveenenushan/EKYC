@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.2.1)
+  - DropDown (2.3.13)
+  - IQKeyboardManager (6.5.5)
+  - JVFloatLabeledTextField (1.2.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - IQKeyboardManager
+  - JVFloatLabeledTextField
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - IQKeyboardManager
+    - JVFloatLabeledTextField
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: b8a8044201de233b5e47be5d3111e3e6f425397f
+
+COCOAPODS: 1.9.1

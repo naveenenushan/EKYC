@@ -1,0 +1,554 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So8UIWindowC", ""]
+- ["So6UIViewC", "addConstraints"]
+- ["So6UIViewC", "addUniversalConstraints"]
+- ["So6UIViewC", "windowFrame"]
+- ["So8UIWindowC", "visibleWindow"]
+provides-dynamic-lookup:
+- "addConstraints"
+- "addUniversalConstraints"
+- "visibleWindow"
+- "windowFrame"
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CGRect"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSLayoutConstraint"
+- "String"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- "UIView"
+- "UIWindow"
+depends-member:
+- !private ["8DropDown10AnchorViewP", "Array"]
+- !private ["8DropDown10AnchorViewP", "Level"]
+- !private ["8DropDown10AnchorViewP", "NSLayoutConstraint"]
+- !private ["8DropDown10AnchorViewP", "UIApplication"]
+- !private ["8DropDown10AnchorViewP", "UIWindow"]
+- !private ["8DropDown10AnchorViewP", "addConstraints"]
+- !private ["8DropDown10AnchorViewP", "convert"]
+- !private ["8DropDown10AnchorViewP", "frame"]
+- !private ["8DropDown10AnchorViewP", "superview"]
+- !private ["8DropDown10AnchorViewP", "windowLevel"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reversed"]
+- !private ["SK", "init"]
+- !private ["SK", "reversed"]
+- !private ["So15CALayerDelegateP", "Array"]
+- !private ["So15CALayerDelegateP", "Level"]
+- !private ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- !private ["So15CALayerDelegateP", "UIApplication"]
+- !private ["So15CALayerDelegateP", "UIWindow"]
+- !private ["So15CALayerDelegateP", "addConstraints"]
+- !private ["So15CALayerDelegateP", "convert"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "superview"]
+- !private ["So15CALayerDelegateP", "windowLevel"]
+- !private ["s7CVarArgP", "Array"]
+- ["s7CVarArgP", "FormatOptions"]
+- !private ["s7CVarArgP", "Level"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIWindow"]
+- !private ["s7CVarArgP", "addConstraints"]
+- !private ["s7CVarArgP", "constraints"]
+- !private ["s7CVarArgP", "convert"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "windowLevel"]
+- !private ["s7CVarArgP", "windows"]
+- !private ["Sl", "init"]
+- !private ["Sl", "reversed"]
+- !private ["SL", "normal"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- ["s28CustomDebugStringConvertibleP", "FormatOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "Level"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "constraints"]
+- !private ["s28CustomDebugStringConvertibleP", "convert"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "windowLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "windows"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- ["s23CustomStringConvertibleP", "FormatOptions"]
+- !private ["s23CustomStringConvertibleP", "Level"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIWindow"]
+- !private ["s23CustomStringConvertibleP", "addConstraints"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "constraints"]
+- !private ["s23CustomStringConvertibleP", "convert"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "windowLevel"]
+- !private ["s23CustomStringConvertibleP", "windows"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reversed"]
+- !private ["Se", "init"]
+- !private ["Se", "reversed"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SE", "reversed"]
+- !private ["SQ", "Array"]
+- ["SQ", "FormatOptions"]
+- !private ["SQ", "Level"]
+- !private ["SQ", "NSLayoutConstraint"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UIWindow"]
+- !private ["SQ", "addConstraints"]
+- !private ["SQ", "constraints"]
+- !private ["SQ", "convert"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keyWindow"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "superview"]
+- !private ["SQ", "windowLevel"]
+- !private ["SQ", "windows"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["SH", "Array"]
+- ["SH", "FormatOptions"]
+- !private ["SH", "Level"]
+- !private ["SH", "NSLayoutConstraint"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UIWindow"]
+- !private ["SH", "addConstraints"]
+- !private ["SH", "constraints"]
+- !private ["SH", "convert"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "keyWindow"]
+- !private ["SH", "normal"]
+- !private ["SH", "reversed"]
+- !private ["SH", "shared"]
+- !private ["SH", "superview"]
+- !private ["SH", "windowLevel"]
+- !private ["SH", "windows"]
+- !private ["So13UIWindowLevela", "normal"]
+- !private ["SM", "init"]
+- !private ["SM", "reversed"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reversed"]
+- !private ["So8NSCodingP", "Array"]
+- !private ["So8NSCodingP", "Level"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "UIWindow"]
+- !private ["So8NSCodingP", "addConstraints"]
+- !private ["So8NSCodingP", "convert"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "superview"]
+- !private ["So8NSCodingP", "windowLevel"]
+- ["So18NSLayoutConstraintC", "FormatOptions"]
+- !private ["So18NSLayoutConstraintC", "constraints"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "FormatOptions"]
+- !private ["So8NSObjectC", "Level"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "UIWindow"]
+- ["So8NSObjectC", "addConstraints"]
+- ["So8NSObjectC", "addUniversalConstraints"]
+- !private ["So8NSObjectC", "constraints"]
+- !private ["So8NSObjectC", "convert"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "superview"]
+- ["So8NSObjectC", "visibleWindow"]
+- ["So8NSObjectC", "windowFrame"]
+- !private ["So8NSObjectC", "windowLevel"]
+- !private ["So8NSObjectC", "windows"]
+- !private ["So8NSObjectP", "Array"]
+- ["So8NSObjectP", "FormatOptions"]
+- !private ["So8NSObjectP", "Level"]
+- !private ["So8NSObjectP", "NSLayoutConstraint"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UIWindow"]
+- !private ["So8NSObjectP", "addConstraints"]
+- !private ["So8NSObjectP", "constraints"]
+- !private ["So8NSObjectP", "convert"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "keyWindow"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["So8NSObjectP", "windowLevel"]
+- !private ["So8NSObjectP", "windows"]
+- !private ["Sk", "init"]
+- !private ["Sk", "reversed"]
+- !private ["Sm", "init"]
+- !private ["Sm", "reversed"]
+- !private ["SY", "normal"]
+- !private ["ST", "init"]
+- !private ["ST", "reversed"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "Array"]
+- !private ["So29UIAccessibilityIdentificationP", "Level"]
+- !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "UIApplication"]
+- !private ["So29UIAccessibilityIdentificationP", "UIWindow"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "convert"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- !private ["So29UIAccessibilityIdentificationP", "windowLevel"]
+- !private ["So12UIAppearanceP", "Array"]
+- !private ["So12UIAppearanceP", "Level"]
+- !private ["So12UIAppearanceP", "NSLayoutConstraint"]
+- !private ["So12UIAppearanceP", "UIApplication"]
+- !private ["So12UIAppearanceP", "UIWindow"]
+- !private ["So12UIAppearanceP", "addConstraints"]
+- !private ["So12UIAppearanceP", "convert"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "superview"]
+- !private ["So12UIAppearanceP", "windowLevel"]
+- !private ["So21UIAppearanceContainerP", "Array"]
+- !private ["So21UIAppearanceContainerP", "Level"]
+- !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "UIWindow"]
+- !private ["So21UIAppearanceContainerP", "addConstraints"]
+- !private ["So21UIAppearanceContainerP", "convert"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- !private ["So21UIAppearanceContainerP", "windowLevel"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "windows"]
+- !private ["So17UICoordinateSpaceP", "Array"]
+- !private ["So17UICoordinateSpaceP", "Level"]
+- !private ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- !private ["So17UICoordinateSpaceP", "UIApplication"]
+- !private ["So17UICoordinateSpaceP", "UIWindow"]
+- !private ["So17UICoordinateSpaceP", "addConstraints"]
+- !private ["So17UICoordinateSpaceP", "convert"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- !private ["So17UICoordinateSpaceP", "windowLevel"]
+- !private ["So13UIDynamicItemP", "Array"]
+- !private ["So13UIDynamicItemP", "Level"]
+- !private ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- !private ["So13UIDynamicItemP", "UIApplication"]
+- !private ["So13UIDynamicItemP", "UIWindow"]
+- !private ["So13UIDynamicItemP", "addConstraints"]
+- !private ["So13UIDynamicItemP", "convert"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "superview"]
+- !private ["So13UIDynamicItemP", "windowLevel"]
+- !private ["So18UIFocusEnvironmentP", "Array"]
+- !private ["So18UIFocusEnvironmentP", "Level"]
+- !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "UIWindow"]
+- !private ["So18UIFocusEnvironmentP", "addConstraints"]
+- !private ["So18UIFocusEnvironmentP", "convert"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- !private ["So18UIFocusEnvironmentP", "windowLevel"]
+- !private ["So11UIFocusItemP", "Array"]
+- !private ["So11UIFocusItemP", "Level"]
+- !private ["So11UIFocusItemP", "NSLayoutConstraint"]
+- !private ["So11UIFocusItemP", "UIApplication"]
+- !private ["So11UIFocusItemP", "UIWindow"]
+- !private ["So11UIFocusItemP", "addConstraints"]
+- !private ["So11UIFocusItemP", "convert"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "superview"]
+- !private ["So11UIFocusItemP", "windowLevel"]
+- !private ["So20UIFocusItemContainerP", "Array"]
+- !private ["So20UIFocusItemContainerP", "Level"]
+- !private ["So20UIFocusItemContainerP", "NSLayoutConstraint"]
+- !private ["So20UIFocusItemContainerP", "UIApplication"]
+- !private ["So20UIFocusItemContainerP", "UIWindow"]
+- !private ["So20UIFocusItemContainerP", "addConstraints"]
+- !private ["So20UIFocusItemContainerP", "convert"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- !private ["So20UIFocusItemContainerP", "windowLevel"]
+- !private ["So24UILargeContentViewerItemP", "Array"]
+- !private ["So24UILargeContentViewerItemP", "Level"]
+- !private ["So24UILargeContentViewerItemP", "NSLayoutConstraint"]
+- !private ["So24UILargeContentViewerItemP", "UIApplication"]
+- !private ["So24UILargeContentViewerItemP", "UIWindow"]
+- !private ["So24UILargeContentViewerItemP", "addConstraints"]
+- !private ["So24UILargeContentViewerItemP", "convert"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "superview"]
+- !private ["So24UILargeContentViewerItemP", "windowLevel"]
+- !private ["So30UIPasteConfigurationSupportingP", "Array"]
+- !private ["So30UIPasteConfigurationSupportingP", "Level"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "convert"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- !private ["So30UIPasteConfigurationSupportingP", "windowLevel"]
+- !private ["So30UIPasteConfigurationSupportingP", "windows"]
+- ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Array"]
+- ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "Level"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "UIWindow"]
+- ["So11UIResponderC", "addConstraints"]
+- ["So11UIResponderC", "addUniversalConstraints"]
+- !private ["So11UIResponderC", "convert"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "superview"]
+- ["So11UIResponderC", "visibleWindow"]
+- ["So11UIResponderC", "windowFrame"]
+- !private ["So11UIResponderC", "windowLevel"]
+- !private ["So11UIResponderC", "windows"]
+- !private ["So30UIResponderStandardEditActionsP", "Array"]
+- !private ["So30UIResponderStandardEditActionsP", "Level"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "convert"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- !private ["So30UIResponderStandardEditActionsP", "windowLevel"]
+- !private ["So30UIResponderStandardEditActionsP", "windows"]
+- !private ["So18UITraitEnvironmentP", "Array"]
+- !private ["So18UITraitEnvironmentP", "Level"]
+- !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "UIWindow"]
+- !private ["So18UITraitEnvironmentP", "addConstraints"]
+- !private ["So18UITraitEnvironmentP", "convert"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- !private ["So18UITraitEnvironmentP", "windowLevel"]
+- !private ["So23UIUserActivityRestoringP", "Array"]
+- !private ["So23UIUserActivityRestoringP", "Level"]
+- !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- !private ["So23UIUserActivityRestoringP", "UIWindow"]
+- !private ["So23UIUserActivityRestoringP", "addConstraints"]
+- !private ["So23UIUserActivityRestoringP", "convert"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- !private ["So23UIUserActivityRestoringP", "windowLevel"]
+- !private ["So23UIUserActivityRestoringP", "windows"]
+- ["So6UIViewC", "AnyObject"]
+- !private ["So6UIViewC", "Array"]
+- ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "Level"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIApplication"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", "UIWindow"]
+- ["So6UIViewC", "addConstraints"]
+- ["So6UIViewC", "addUniversalConstraints"]
+- !private ["So6UIViewC", "convert"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "superview"]
+- ["So6UIViewC", "visibleWindow"]
+- ["So6UIViewC", "windowFrame"]
+- !private ["So6UIViewC", "windowLevel"]
+- !private ["So8UIWindowC", "Array"]
+- !private ["So8UIWindowC", "Level"]
+- !private ["So8UIWindowC", "UIApplication"]
+- ["So8UIWindowC", "UIWindow"]
+- ["So8UIWindowC", "visibleWindow"]
+- !private ["So8UIWindowC", "windowLevel"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "normal"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FormatOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Level"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windowLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Array"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FormatOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Level"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLayoutConstraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "convert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "superview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowLevel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windows"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "normal"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s20_SwiftNewtypeWrapperP", "normal"]
+- !private ["5UIKit01_A23NumericRawRepresentableP", "normal"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Array"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Level"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIApplication"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIWindow"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "convert"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "windowLevel"]
+depends-nominal:
+- !private "8DropDown10AnchorViewP"
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "So13UIWindowLevela"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So8UIWindowC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "5UIKit01_A23NumericRawRepresentableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/Pods/Target Support Files/DropDown/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Pods.build/Debug-iphonesimulator/DropDown.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "38d0a56bb6f1a8be384914c631b5389b"

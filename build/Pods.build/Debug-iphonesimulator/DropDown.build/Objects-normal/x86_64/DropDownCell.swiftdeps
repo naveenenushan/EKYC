@@ -1,0 +1,572 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DropDownCell"
+provides-nominal:
+- "8DropDown0aB4CellC"
+provides-member:
+- ["8DropDown0aB4CellC", ""]
+- ["8DropDown0aB4CellC", "awakeFromNib"]
+- ["8DropDown0aB4CellC", "isSelected"]
+- ["8DropDown0aB4CellC", "isHighlighted"]
+- ["8DropDown0aB4CellC", "setHighlighted"]
+- ["8DropDown0aB4CellC", "setSelected"]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "highlightTextColor"
+- "isHighlighted"
+- "isSelected"
+- "normalTextColor"
+- "optionLabel"
+- "selectedBackgroundColor"
+- "setHighlighted"
+- "setSelected"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DropDownCell"
+- !private "FloatLiteralType"
+- "TernaryPrecedence"
+- "UIColor"
+- "UILabel"
+- "UITableViewCell"
+- !private "UIView"
+- !private "Void"
+depends-member:
+- !private ["8DropDown10AnchorViewP", "UIView"]
+- ["8DropDown10AnchorViewP", ""]
+- !private ["8DropDown10AnchorViewP", "accessibilityTraits"]
+- !private ["8DropDown10AnchorViewP", "animate"]
+- !private ["8DropDown10AnchorViewP", "awakeFromNib"]
+- !private ["8DropDown10AnchorViewP", "backgroundColor"]
+- !private ["8DropDown10AnchorViewP", "highlightTextColor"]
+- !private ["8DropDown10AnchorViewP", "normalTextColor"]
+- !private ["8DropDown10AnchorViewP", "optionLabel"]
+- !private ["8DropDown10AnchorViewP", "selectedBackgroundColor"]
+- !private ["8DropDown10AnchorViewP", "setSelected"]
+- !private ["8DropDown10AnchorViewP", "textColor"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "accessibilityTraits"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "highlightTextColor"]
+- !private ["So15CALayerDelegateP", "normalTextColor"]
+- !private ["So15CALayerDelegateP", "optionLabel"]
+- !private ["So15CALayerDelegateP", "selectedBackgroundColor"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accessibilityTraits"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "highlightTextColor"]
+- !private ["s7CVarArgP", "normalTextColor"]
+- !private ["s7CVarArgP", "optionLabel"]
+- !private ["s7CVarArgP", "selectedBackgroundColor"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessibilityTraits"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "highlightTextColor"]
+- !private ["s28CustomDebugStringConvertibleP", "normalTextColor"]
+- !private ["s28CustomDebugStringConvertibleP", "optionLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedBackgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accessibilityTraits"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "highlightTextColor"]
+- !private ["s23CustomStringConvertibleP", "normalTextColor"]
+- !private ["s23CustomStringConvertibleP", "optionLabel"]
+- !private ["s23CustomStringConvertibleP", "selectedBackgroundColor"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["Se", "clear"]
+- !private ["Se", "textColor"]
+- ["8DropDown0aB4CellC", "Bool"]
+- ["8DropDown0aB4CellC", "UIColor"]
+- ["8DropDown0aB4CellC", "UILabel"]
+- !private ["8DropDown0aB4CellC", "UIView"]
+- !private ["8DropDown0aB4CellC", "Void"]
+- !private ["8DropDown0aB4CellC", "accessibilityTraits"]
+- ["8DropDown0aB4CellC", "awakeFromNib"]
+- !private ["8DropDown0aB4CellC", "backgroundColor"]
+- ["8DropDown0aB4CellC", "deinit"]
+- ["8DropDown0aB4CellC", "highlightTextColor"]
+- ["8DropDown0aB4CellC", "init"]
+- ["8DropDown0aB4CellC", "isHighlighted"]
+- ["8DropDown0aB4CellC", "isSelected"]
+- ["8DropDown0aB4CellC", "normalTextColor"]
+- ["8DropDown0aB4CellC", "optionLabel"]
+- ["8DropDown0aB4CellC", "selectedBackgroundColor"]
+- ["8DropDown0aB4CellC", "setHighlighted"]
+- ["8DropDown0aB4CellC", "setSelected"]
+- !private ["SE", "clear"]
+- !private ["SE", "textColor"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "accessibilityTraits"]
+- !private ["SQ", "animate"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "highlightTextColor"]
+- !private ["SQ", "none"]
+- !private ["SQ", "normalTextColor"]
+- !private ["SQ", "optionLabel"]
+- !private ["SQ", "selected"]
+- !private ["SQ", "selectedBackgroundColor"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "textColor"]
+- !private ["s25ExpressibleByArrayLiteralP", "none"]
+- !private ["s25ExpressibleByArrayLiteralP", "selected"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s23ExpressibleByNilLiteralP", "textColor"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "accessibilityTraits"]
+- !private ["SH", "animate"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "clear"]
+- !private ["SH", "highlightTextColor"]
+- !private ["SH", "none"]
+- !private ["SH", "normalTextColor"]
+- !private ["SH", "optionLabel"]
+- !private ["SH", "selected"]
+- !private ["SH", "selectedBackgroundColor"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "textColor"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "accessibilityTraits"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "highlightTextColor"]
+- !private ["So8NSCodingP", "normalTextColor"]
+- !private ["So8NSCodingP", "optionLabel"]
+- !private ["So8NSCodingP", "selectedBackgroundColor"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "accessibilityTraits"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "highlightTextColor"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isHighlighted"]
+- ["So8NSObjectC", "isSelected"]
+- ["So8NSObjectC", "normalTextColor"]
+- ["So8NSObjectC", "optionLabel"]
+- ["So8NSObjectC", "selectedBackgroundColor"]
+- ["So8NSObjectC", "setHighlighted"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accessibilityTraits"]
+- !private ["So8NSObjectP", "animate"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "highlightTextColor"]
+- !private ["So8NSObjectP", "normalTextColor"]
+- !private ["So8NSObjectP", "optionLabel"]
+- !private ["So8NSObjectP", "selectedBackgroundColor"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["s9OptionSetP", "none"]
+- !private ["s9OptionSetP", "selected"]
+- !private ["Sq", "clear"]
+- !private ["Sq", "textColor"]
+- !private ["SY", "none"]
+- !private ["SY", "selected"]
+- !private ["s10SetAlgebraP", "none"]
+- !private ["s10SetAlgebraP", "selected"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "accessibilityTraits"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "highlightTextColor"]
+- !private ["So29UIAccessibilityIdentificationP", "normalTextColor"]
+- !private ["So29UIAccessibilityIdentificationP", "optionLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedBackgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So21UIAccessibilityTraitsa", "none"]
+- !private ["So21UIAccessibilityTraitsa", "selected"]
+- !private ["So12UIAppearanceP", "UIView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "accessibilityTraits"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "highlightTextColor"]
+- !private ["So12UIAppearanceP", "normalTextColor"]
+- !private ["So12UIAppearanceP", "optionLabel"]
+- !private ["So12UIAppearanceP", "selectedBackgroundColor"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "accessibilityTraits"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "highlightTextColor"]
+- !private ["So21UIAppearanceContainerP", "normalTextColor"]
+- !private ["So21UIAppearanceContainerP", "optionLabel"]
+- !private ["So21UIAppearanceContainerP", "selectedBackgroundColor"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "accessibilityTraits"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "highlightTextColor"]
+- !private ["So17UICoordinateSpaceP", "normalTextColor"]
+- !private ["So17UICoordinateSpaceP", "optionLabel"]
+- !private ["So17UICoordinateSpaceP", "selectedBackgroundColor"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "accessibilityTraits"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "highlightTextColor"]
+- !private ["So13UIDynamicItemP", "normalTextColor"]
+- !private ["So13UIDynamicItemP", "optionLabel"]
+- !private ["So13UIDynamicItemP", "selectedBackgroundColor"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "accessibilityTraits"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "highlightTextColor"]
+- !private ["So18UIFocusEnvironmentP", "normalTextColor"]
+- !private ["So18UIFocusEnvironmentP", "optionLabel"]
+- !private ["So18UIFocusEnvironmentP", "selectedBackgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So11UIFocusItemP", "UIView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "accessibilityTraits"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "highlightTextColor"]
+- !private ["So11UIFocusItemP", "normalTextColor"]
+- !private ["So11UIFocusItemP", "optionLabel"]
+- !private ["So11UIFocusItemP", "selectedBackgroundColor"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "UIView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "accessibilityTraits"]
+- !private ["So20UIFocusItemContainerP", "animate"]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "highlightTextColor"]
+- !private ["So20UIFocusItemContainerP", "normalTextColor"]
+- !private ["So20UIFocusItemContainerP", "optionLabel"]
+- !private ["So20UIFocusItemContainerP", "selectedBackgroundColor"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIView"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "accessibilityTraits"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "backgroundColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "highlightTextColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "normalTextColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "optionLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "selectedBackgroundColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "UIView"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "accessibilityTraits"]
+- !private ["So24UILargeContentViewerItemP", "animate"]
+- !private ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "highlightTextColor"]
+- !private ["So24UILargeContentViewerItemP", "normalTextColor"]
+- !private ["So24UILargeContentViewerItemP", "optionLabel"]
+- !private ["So24UILargeContentViewerItemP", "selectedBackgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "setSelected"]
+- !private ["So24UILargeContentViewerItemP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "accessibilityTraits"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "highlightTextColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "normalTextColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "optionLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedBackgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "accessibilityTraits"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "highlightTextColor"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isHighlighted"]
+- ["So11UIResponderC", "isSelected"]
+- ["So11UIResponderC", "normalTextColor"]
+- ["So11UIResponderC", "optionLabel"]
+- ["So11UIResponderC", "selectedBackgroundColor"]
+- ["So11UIResponderC", "setHighlighted"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "accessibilityTraits"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "highlightTextColor"]
+- !private ["So30UIResponderStandardEditActionsP", "normalTextColor"]
+- !private ["So30UIResponderStandardEditActionsP", "optionLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedBackgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "UIColor"]
+- ["So15UITableViewCellC", "UILabel"]
+- !private ["So15UITableViewCellC", "UIView"]
+- !private ["So15UITableViewCellC", "Void"]
+- ["So15UITableViewCellC", ""]
+- !private ["So15UITableViewCellC", "accessibilityTraits"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- !private ["So15UITableViewCellC", "backgroundColor"]
+- ["So15UITableViewCellC", "highlightTextColor"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "isHighlighted"]
+- ["So15UITableViewCellC", "isSelected"]
+- ["So15UITableViewCellC", "normalTextColor"]
+- ["So15UITableViewCellC", "optionLabel"]
+- ["So15UITableViewCellC", "selectedBackgroundColor"]
+- ["So15UITableViewCellC", "setHighlighted"]
+- ["So15UITableViewCellC", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "accessibilityTraits"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "highlightTextColor"]
+- !private ["So18UITraitEnvironmentP", "normalTextColor"]
+- !private ["So18UITraitEnvironmentP", "optionLabel"]
+- !private ["So18UITraitEnvironmentP", "selectedBackgroundColor"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "accessibilityTraits"]
+- !private ["So23UIUserActivityRestoringP", "animate"]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "highlightTextColor"]
+- !private ["So23UIUserActivityRestoringP", "normalTextColor"]
+- !private ["So23UIUserActivityRestoringP", "optionLabel"]
+- !private ["So23UIUserActivityRestoringP", "selectedBackgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "Void"]
+- !private ["So6UIViewC", "accessibilityTraits"]
+- !private ["So6UIViewC", "animate"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "highlightTextColor"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "isHighlighted"]
+- ["So6UIViewC", "isSelected"]
+- ["So6UIViewC", "normalTextColor"]
+- ["So6UIViewC", "optionLabel"]
+- ["So6UIViewC", "selectedBackgroundColor"]
+- ["So6UIViewC", "setHighlighted"]
+- ["So6UIViewC", "setSelected"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "none"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "selected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessibilityTraits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "highlightTextColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "normalTextColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "optionLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedBackgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accessibilityTraits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "highlightTextColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "normalTextColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "optionLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedBackgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSelected"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "selected"]
+- !private ["s21_ObjectiveCBridgeableP", "textColor"]
+- !private ["s20_SwiftNewtypeWrapperP", "none"]
+- !private ["s20_SwiftNewtypeWrapperP", "selected"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "accessibilityTraits"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "highlightTextColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "normalTextColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "optionLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "selectedBackgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+depends-nominal:
+- "8DropDown10AnchorViewP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "8DropDown0aB4CellC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- "So29UIAccessibilityIdentificationP"
+- !private "So21UIAccessibilityTraitsa"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/Pods/Target Support Files/DropDown/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Pods.build/Debug-iphonesimulator/DropDown.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f1731dd941cd88fdf74d5356d7647cdb"

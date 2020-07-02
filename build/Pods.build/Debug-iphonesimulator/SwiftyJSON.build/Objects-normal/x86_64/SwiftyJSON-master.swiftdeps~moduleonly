@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9120335fa688df7d9e8f1603c8c94969"
+build_time: [1593604572, 237980000]
+inputs:
+  "/Users/naveen/Projects/EKYC-Dev/EKYC/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1593600625, 728611283]

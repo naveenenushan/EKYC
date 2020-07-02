@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DPDConstant"
+provides-nominal:
+- "8DropDown11DPDConstantV"
+- "8DropDown11DPDConstantV7KeyPathV"
+- "8DropDown11DPDConstantV18ReusableIdentifierV"
+- "8DropDown11DPDConstantV2UIV"
+- "8DropDown11DPDConstantV2UIV6ShadowV"
+- "8DropDown11DPDConstantV9AnimationV"
+provides-member:
+- ["8DropDown11DPDConstantV", ""]
+- ["8DropDown11DPDConstantV7KeyPathV", ""]
+- ["8DropDown11DPDConstantV18ReusableIdentifierV", ""]
+- ["8DropDown11DPDConstantV2UIV", ""]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", ""]
+- ["8DropDown11DPDConstantV9AnimationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGAffineTransform"
+- "CGFloat"
+- "CGSize"
+- "DPDConstant"
+- "Float"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "StringLiteralType"
+- "UIColor"
+- "UIFont"
+- "UIView"
+depends-member:
+- ["8DropDown10AnchorViewP", "AnimationOptions"]
+- ["8DropDown11DPDConstantV9AnimationV", "CGAffineTransform"]
+- ["8DropDown11DPDConstantV9AnimationV", "DownScaleTransform"]
+- ["8DropDown11DPDConstantV9AnimationV", "Duration"]
+- ["8DropDown11DPDConstantV9AnimationV", "EntranceOptions"]
+- ["8DropDown11DPDConstantV9AnimationV", "ExitOptions"]
+- ["8DropDown11DPDConstantV9AnimationV", "UIView"]
+- ["8DropDown11DPDConstantV9AnimationV", "init"]
+- ["So22UIViewAnimationOptionsV", "allowUserInteraction"]
+- ["So22UIViewAnimationOptionsV", "curveEaseIn"]
+- ["So22UIViewAnimationOptionsV", "curveEaseOut"]
+- ["So15CALayerDelegateP", "AnimationOptions"]
+- ["So17CGAffineTransformV", "init"]
+- ["So6CGSizeV", "zero"]
+- ["s7CVarArgP", "AnimationOptions"]
+- ["s7CVarArgP", "black"]
+- ["s7CVarArgP", "clear"]
+- ["s7CVarArgP", "darkGray"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "AnimationOptions"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- ["s28CustomDebugStringConvertibleP", "clear"]
+- ["s28CustomDebugStringConvertibleP", "darkGray"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "AnimationOptions"]
+- ["s23CustomStringConvertibleP", "black"]
+- ["s23CustomStringConvertibleP", "clear"]
+- ["s23CustomStringConvertibleP", "darkGray"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- ["8DropDown11DPDConstantV", "Animation"]
+- ["8DropDown11DPDConstantV", "CGAffineTransform"]
+- ["8DropDown11DPDConstantV", "CGFloat"]
+- ["8DropDown11DPDConstantV", "CGSize"]
+- ["8DropDown11DPDConstantV", "Float"]
+- ["8DropDown11DPDConstantV", "KeyPath"]
+- ["8DropDown11DPDConstantV", "ReusableIdentifier"]
+- ["8DropDown11DPDConstantV", "UI"]
+- ["8DropDown11DPDConstantV", "UIColor"]
+- ["8DropDown11DPDConstantV", "UIFont"]
+- ["8DropDown11DPDConstantV", "UIView"]
+- ["8DropDown11DPDConstantV", "init"]
+- ["Se", "init"]
+- ["Se", "zero"]
+- ["SE", "init"]
+- ["SE", "zero"]
+- ["SQ", "AnimationOptions"]
+- ["SQ", "allowUserInteraction"]
+- ["SQ", "black"]
+- ["SQ", "clear"]
+- ["SQ", "curveEaseIn"]
+- ["SQ", "curveEaseOut"]
+- ["SQ", "darkGray"]
+- ["SQ", "init"]
+- ["SQ", "systemFont"]
+- ["SQ", "zero"]
+- ["s25ExpressibleByArrayLiteralP", "allowUserInteraction"]
+- ["s25ExpressibleByArrayLiteralP", "curveEaseIn"]
+- ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
+- ["SH", "AnimationOptions"]
+- ["SH", "black"]
+- ["SH", "clear"]
+- ["SH", "darkGray"]
+- ["SH", "init"]
+- ["SH", "systemFont"]
+- ["8DropDown11DPDConstantV7KeyPathV", "Frame"]
+- ["8DropDown11DPDConstantV7KeyPathV", "init"]
+- ["So8NSCodingP", "AnimationOptions"]
+- ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "clear"]
+- ["So8NSCodingP", "darkGray"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "clear"]
+- ["So9NSCopyingP", "darkGray"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "clear"]
+- ["So21NSItemProviderReadingP", "darkGray"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "clear"]
+- ["So21NSItemProviderWritingP", "darkGray"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "AnimationOptions"]
+- ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "darkGray"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectP", "AnimationOptions"]
+- ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "clear"]
+- ["So8NSObjectP", "darkGray"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "systemFont"]
+- ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "clear"]
+- ["So14NSSecureCodingP", "darkGray"]
+- ["So14NSSecureCodingP", "init"]
+- ["s9OptionSetP", "allowUserInteraction"]
+- ["s9OptionSetP", "curveEaseIn"]
+- ["s9OptionSetP", "curveEaseOut"]
+- ["SY", "allowUserInteraction"]
+- ["SY", "curveEaseIn"]
+- ["SY", "curveEaseOut"]
+- ["8DropDown11DPDConstantV18ReusableIdentifierV", "DropDownCell"]
+- ["8DropDown11DPDConstantV18ReusableIdentifierV", "init"]
+- ["s10SetAlgebraP", "allowUserInteraction"]
+- ["s10SetAlgebraP", "curveEaseIn"]
+- ["s10SetAlgebraP", "curveEaseOut"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "CGFloat"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "CGSize"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "Color"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "Float"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "Offset"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "Opacity"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "Radius"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "UIColor"]
+- ["8DropDown11DPDConstantV2UIV6ShadowV", "init"]
+- ["8DropDown11DPDConstantV2UIV", "BackgroundColor"]
+- ["8DropDown11DPDConstantV2UIV", "CGFloat"]
+- ["8DropDown11DPDConstantV2UIV", "CGSize"]
+- ["8DropDown11DPDConstantV2UIV", "CornerRadius"]
+- ["8DropDown11DPDConstantV2UIV", "Float"]
+- ["8DropDown11DPDConstantV2UIV", "HeightPadding"]
+- ["8DropDown11DPDConstantV2UIV", "RowHeight"]
+- ["8DropDown11DPDConstantV2UIV", "SelectedTextColor"]
+- ["8DropDown11DPDConstantV2UIV", "SelectionBackgroundColor"]
+- ["8DropDown11DPDConstantV2UIV", "SeparatorColor"]
+- ["8DropDown11DPDConstantV2UIV", "Shadow"]
+- ["8DropDown11DPDConstantV2UIV", "TextColor"]
+- ["8DropDown11DPDConstantV2UIV", "TextFont"]
+- ["8DropDown11DPDConstantV2UIV", "UIColor"]
+- ["8DropDown11DPDConstantV2UIV", "UIFont"]
+- ["8DropDown11DPDConstantV2UIV", "init"]
+- ["So29UIAccessibilityIdentificationP", "AnimationOptions"]
+- ["So12UIAppearanceP", "AnimationOptions"]
+- ["So21UIAppearanceContainerP", "AnimationOptions"]
+- ["So7UIColorC", "black"]
+- ["So7UIColorC", "clear"]
+- ["So7UIColorC", "darkGray"]
+- ["So7UIColorC", "init"]
+- ["So17UICoordinateSpaceP", "AnimationOptions"]
+- ["So13UIDynamicItemP", "AnimationOptions"]
+- ["So18UIFocusEnvironmentP", "AnimationOptions"]
+- ["So11UIFocusItemP", "AnimationOptions"]
+- ["So20UIFocusItemContainerP", "AnimationOptions"]
+- ["So6UIFontC", "systemFont"]
+- ["So24UILargeContentViewerItemP", "AnimationOptions"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationOptions"]
+- ["So11UIResponderC", "AnimationOptions"]
+- ["So30UIResponderStandardEditActionsP", "AnimationOptions"]
+- ["So18UITraitEnvironmentP", "AnimationOptions"]
+- ["So23UIUserActivityRestoringP", "AnimationOptions"]
+- ["So6UIViewC", "AnimationOptions"]
+- ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnimationOptions"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clear"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "darkGray"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationOptions"]
+depends-nominal:
+- "8DropDown10AnchorViewP"
+- "8DropDown11DPDConstantV9AnimationV"
+- "So22UIViewAnimationOptionsV"
+- "So15CALayerDelegateP"
+- "So17CGAffineTransformV"
+- "So6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "8DropDown11DPDConstantV"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "8DropDown11DPDConstantV7KeyPathV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "s9OptionSetP"
+- "SY"
+- "8DropDown11DPDConstantV18ReusableIdentifierV"
+- "s10SetAlgebraP"
+- "8DropDown11DPDConstantV2UIV6ShadowV"
+- "8DropDown11DPDConstantV2UIV"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So6UIFontC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/Pods/Target Support Files/DropDown/DropDown-umbrella.h"
+- "/Users/naveen/Projects/EKYC-Dev/EKYC/build/Pods.build/Debug-iphoneos/DropDown.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5e065c810913088fbdf2ccb4f5055293"
