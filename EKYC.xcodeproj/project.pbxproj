@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AA993324ACA0E700033739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA993224ACA0E700033739 /* AppDelegate.swift */; };
-		01AA993524ACA0E700033739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA993424ACA0E700033739 /* SceneDelegate.swift */; };
-		01AA993724ACA0E700033739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA993624ACA0E700033739 /* ViewController.swift */; };
-		01AA993A24ACA0E700033739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993824ACA0E700033739 /* Main.storyboard */; };
 		01AA993C24ACA0E900033739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993B24ACA0E900033739 /* Assets.xcassets */; };
-		01AA993F24ACA0E900033739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993D24ACA0E900033739 /* LaunchScreen.storyboard */; };
 		01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994724ACA22A00033739 /* imageResizeExtension.swift */; };
 		01AA997D24ACA22C00033739 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994824ACA22A00033739 /* Environment.swift */; };
 		01AA997E24ACA22C00033739 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994924ACA22A00033739 /* NetworkManager.swift */; };
@@ -89,12 +84,7 @@
 
 /* Begin PBXFileReference section */
 		01AA992F24ACA0E700033739 /* EKYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		01AA993224ACA0E700033739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01AA993424ACA0E700033739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01AA993624ACA0E700033739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01AA993924ACA0E700033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01AA993B24ACA0E900033739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		01AA993E24ACA0E900033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AA994024ACA0E900033739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01AA994724ACA22A00033739 /* imageResizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageResizeExtension.swift; sourceTree = "<group>"; };
 		01AA994824ACA22A00033739 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -209,12 +199,7 @@
 				01AA994624ACA22A00033739 /* Utility */,
 				01AA994C24ACA22B00033739 /* Views */,
 				01AA99A724ACA25200033739 /* AAILivenessSDK */,
-				01AA993224ACA0E700033739 /* AppDelegate.swift */,
-				01AA993424ACA0E700033739 /* SceneDelegate.swift */,
-				01AA993624ACA0E700033739 /* ViewController.swift */,
-				01AA993824ACA0E700033739 /* Main.storyboard */,
 				01AA993B24ACA0E900033739 /* Assets.xcassets */,
-				01AA993D24ACA0E900033739 /* LaunchScreen.storyboard */,
 				01AA994024ACA0E900033739 /* Info.plist */,
 			);
 			path = EKYC;
@@ -438,7 +423,6 @@
 				01AA998D24ACA22C00033739 /* Warning.png in Resources */,
 				01AA999B24ACA22C00033739 /* ic_action_complete.png in Resources */,
 				01AA99B724ACA25200033739 /* AAIImgs.bundle in Resources */,
-				01AA993F24ACA0E900033739 /* LaunchScreen.storyboard in Resources */,
 				01AA999824ACA22C00033739 /* ic_next.png in Resources */,
 				01AA99B924ACA25200033739 /* AAILanguageString.bundle in Resources */,
 				01AA999E24ACA22C00033739 /* back-inverse.png in Resources */,
@@ -460,7 +444,6 @@
 				01AA999724ACA22C00033739 /* ic_action_refresh.png in Resources */,
 				01AA998424ACA22C00033739 /* AlertView.xib in Resources */,
 				01AA999324ACA22C00033739 /* alert.png in Resources */,
-				01AA993A24ACA0E700033739 /* Main.storyboard in Resources */,
 				01AA999524ACA22C00033739 /* ic_next_white.png in Resources */,
 				01AA998224ACA22C00033739 /* Storyboard.storyboard in Resources */,
 			);
@@ -516,12 +499,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AA997E24ACA22C00033739 /* NetworkManager.swift in Sources */,
-				01AA993724ACA0E700033739 /* ViewController.swift in Sources */,
 				01AA998724ACA22C00033739 /* CompletionViewController.swift in Sources */,
 				01AA998624ACA22C00033739 /* CustomAlertView.swift in Sources */,
 				01AA99A024ACA22C00033739 /* KYCError.swift in Sources */,
 				01AA99A424ACA22C00033739 /* OCRResponse.swift in Sources */,
-				01AA993324ACA0E700033739 /* AppDelegate.swift in Sources */,
 				01AA99BF24ACA31C00033739 /* OCRService.swift in Sources */,
 				01AA99A324ACA22C00033739 /* Snapshot.swift in Sources */,
 				01AA998C24ACA22C00033739 /* UploadVerificationViewController.swift in Sources */,
@@ -536,7 +517,6 @@
 				01AA99A224ACA22C00033739 /* Data.swift in Sources */,
 				01AA998A24ACA22C00033739 /* OCRViewController.swift in Sources */,
 				01AA997F24ACA22C00033739 /* ImagePicker.swift in Sources */,
-				01AA993524ACA0E700033739 /* SceneDelegate.swift in Sources */,
 				01AA99BC24ACA25200033739 /* AAILivenessViewController.m in Sources */,
 				01AA99BA24ACA25200033739 /* AAILivenessUtil.m in Sources */,
 				01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */,
@@ -550,22 +530,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		01AA993824ACA0E700033739 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01AA993924ACA0E700033739 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		01AA993D24ACA0E900033739 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01AA993E24ACA0E900033739 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		01AA994D24ACA22B00033739 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

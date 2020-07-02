@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EKYC"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A short description of EKYC."
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,9 @@ spec.platform     = :ios, "12.0"
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "EKYC/**/*.{h,m}"
-  spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m,swift,storyboard,strings,}"
+  spec.source_files  = "Classes", "EKYC/**/*.{h,m,swift}"
+  
+  spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
   
   spec.exclude_files = "Classes/Exclude"
 
@@ -108,7 +109,8 @@ spec.platform     = :ios, "12.0"
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  #
+   spec.resources = "EKYC/**/*.{png,storyboard,modulemap,strings,xib}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
