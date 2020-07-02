@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EKYC"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.1"
   spec.summary      = "A short description of EKYC."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ spec.platform     = :ios, "12.0"
   #
 
   spec.source_files  = "Classes", "EKYC/**/*.{h,m}"
-  spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
+  spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m,swift,storyboard,strings,}"
   
   spec.exclude_files = "Classes/Exclude"
 
