@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0192FE7224AE4F81000C0506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192FE6D24AE4F80000C0506 /* ViewController.swift */; };
+		0192FE7324AE4F81000C0506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192FE6E24AE4F80000C0506 /* LaunchScreen.storyboard */; };
+		0192FE7424AE4F81000C0506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192FE6F24AE4F80000C0506 /* AppDelegate.swift */; };
+		0192FE7524AE4F81000C0506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192FE7024AE4F80000C0506 /* Main.storyboard */; };
+		0192FE7624AE4F81000C0506 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192FE7124AE4F81000C0506 /* SceneDelegate.swift */; };
 		01AA993C24ACA0E900033739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993B24ACA0E900033739 /* Assets.xcassets */; };
 		01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994724ACA22A00033739 /* imageResizeExtension.swift */; };
 		01AA997D24ACA22C00033739 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994824ACA22A00033739 /* Environment.swift */; };
 		01AA997E24ACA22C00033739 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994924ACA22A00033739 /* NetworkManager.swift */; };
 		01AA997F24ACA22C00033739 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994A24ACA22A00033739 /* ImagePicker.swift */; };
 		01AA998024ACA22C00033739 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994B24ACA22A00033739 /* Util.swift */; };
-		01AA998124ACA22C00033739 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AA994D24ACA22B00033739 /* Localizable.strings */; };
 		01AA998224ACA22C00033739 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA995024ACA22B00033739 /* Storyboard.storyboard */; };
 		01AA998324ACA22C00033739 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA995324ACA22B00033739 /* AlertModel.swift */; };
 		01AA998424ACA22C00033739 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AA995424ACA22B00033739 /* AlertView.xib */; };
@@ -64,7 +68,6 @@
 		01AA99C824ACAE5700033739 /* AAILivenessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA99AF24ACA25200033739 /* AAILivenessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01F6507B24ACE7BB00955E56 /* AAILivenessSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AA99A824ACA25200033739 /* AAILivenessSDK.framework */; };
 		01F6507C24ACE7BB00955E56 /* AAILivenessSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01AA99A824ACA25200033739 /* AAILivenessSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		01F6507F24ACE9B600955E56 /* AAILivenessSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F6507E24ACE9B600955E56 /* AAILivenessSDK.h */; };
 		5C7BBC681FE360CE07BD881E /* Pods_EKYC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0192FE6D24AE4F80000C0506 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0192FE6E24AE4F80000C0506 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0192FE6F24AE4F80000C0506 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0192FE7024AE4F80000C0506 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0192FE7124AE4F81000C0506 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01AA992F24ACA0E700033739 /* EKYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AA993B24ACA0E900033739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AA994024ACA0E900033739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,14 +99,11 @@
 		01AA994924ACA22A00033739 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		01AA994A24ACA22A00033739 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		01AA994B24ACA22A00033739 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		01AA994E24ACA22B00033739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		01AA994F24ACA22B00033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		01AA995124ACA22B00033739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 		01AA995324ACA22B00033739 /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
 		01AA995424ACA22B00033739 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
 		01AA995524ACA22B00033739 /* AlertViewDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewDialog.swift; sourceTree = "<group>"; };
 		01AA995624ACA22B00033739 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
-		01AA995724ACA22B00033739 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		01AA995824ACA22B00033739 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = id; path = id.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 		01AA995A24ACA22B00033739 /* CompletionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletionViewController.swift; sourceTree = "<group>"; };
 		01AA995B24ACA22B00033739 /* IdentityVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityVerificationViewController.swift; sourceTree = "<group>"; };
@@ -148,7 +153,6 @@
 		01AA99C024ACA39400033739 /* qmodule.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = qmodule.modulemap; sourceTree = "<group>"; };
 		01AA99C124ACA63800033739 /* EKYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKYC.h; sourceTree = "<group>"; };
 		01AA99C224ACA68C00033739 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		01F6507E24ACE9B600955E56 /* AAILivenessSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAILivenessSDK.h; sourceTree = "<group>"; };
 		87E11C8067898D26162AFE32 /* Pods-EKYC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKYC.release.xcconfig"; path = "Target Support Files/Pods-EKYC/Pods-EKYC.release.xcconfig"; sourceTree = "<group>"; };
 		A164DAA221838B49C68105D9 /* Pods-EKYC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKYC.debug.xcconfig"; path = "Target Support Files/Pods-EKYC/Pods-EKYC.debug.xcconfig"; sourceTree = "<group>"; };
 		FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EKYC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,7 +174,6 @@
 		01AA992624ACA0E700033739 = {
 			isa = PBXGroup;
 			children = (
-				01F6507E24ACE9B600955E56 /* AAILivenessSDK.h */,
 				01AA993124ACA0E700033739 /* EKYC */,
 				01AA993024ACA0E700033739 /* Products */,
 				71F5C1307C3BF1BEBD223CD1 /* Pods */,
@@ -189,15 +192,16 @@
 		01AA993124ACA0E700033739 /* EKYC */ = {
 			isa = PBXGroup;
 			children = (
+				0192FE6F24AE4F80000C0506 /* AppDelegate.swift */,
+				0192FE6E24AE4F80000C0506 /* LaunchScreen.storyboard */,
+				0192FE7024AE4F80000C0506 /* Main.storyboard */,
+				0192FE7124AE4F81000C0506 /* SceneDelegate.swift */,
+				0192FE6D24AE4F80000C0506 /* ViewController.swift */,
 				01AA99C224ACA68C00033739 /* Localizable.strings */,
 				01AA99C124ACA63800033739 /* EKYC.h */,
 				01AA99C024ACA39400033739 /* qmodule.modulemap */,
-				01AA99BE24ACA31C00033739 /* OCRService.swift */,
 				01AA996024ACA22B00033739 /* Assets */,
 				01AA995924ACA22B00033739 /* Classes */,
-				01AA997424ACA22B00033739 /* Model */,
-				01AA994624ACA22A00033739 /* Utility */,
-				01AA994C24ACA22B00033739 /* Views */,
 				01AA99A724ACA25200033739 /* AAILivenessSDK */,
 				01AA993B24ACA0E900033739 /* Assets.xcassets */,
 				01AA994024ACA0E900033739 /* Info.plist */,
@@ -220,7 +224,6 @@
 		01AA994C24ACA22B00033739 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				01AA994D24ACA22B00033739 /* Localizable.strings */,
 				01AA995024ACA22B00033739 /* Storyboard.storyboard */,
 				01AA995224ACA22B00033739 /* Alerts */,
 			);
@@ -241,12 +244,24 @@
 		01AA995924ACA22B00033739 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				01AA99BE24ACA31C00033739 /* OCRService.swift */,
+				01AA997424ACA22B00033739 /* Model */,
+				01AA994624ACA22A00033739 /* Utility */,
+				01AA994C24ACA22B00033739 /* Views */,
 				01AA995A24ACA22B00033739 /* CompletionViewController.swift */,
 				01AA995B24ACA22B00033739 /* IdentityVerificationViewController.swift */,
 				01AA995C24ACA22B00033739 /* MainViewController.swift */,
 				01AA995D24ACA22B00033739 /* OCRViewController.swift */,
 				01AA995E24ACA22B00033739 /* VerificationRefultViewController.swift */,
 				01AA995F24ACA22B00033739 /* UploadVerificationViewController.swift */,
+				01AA99AE24ACA25200033739 /* AAILivenessUtil.h */,
+				01AA99AF24ACA25200033739 /* AAILivenessViewController.h */,
+				01AA99B024ACA25200033739 /* AAIHUD.h */,
+				01AA99B124ACA25200033739 /* AAILivenessResultViewController.h */,
+				01AA99B224ACA25200033739 /* AAILivenessUtil.m */,
+				01AA99B324ACA25200033739 /* AAIHUD.m */,
+				01AA99B424ACA25200033739 /* AAILivenessViewController.m */,
+				01AA99B524ACA25200033739 /* AAILivenessResultViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -314,14 +329,6 @@
 		01AA99AD24ACA25200033739 /* AAILiveness */ = {
 			isa = PBXGroup;
 			children = (
-				01AA99AE24ACA25200033739 /* AAILivenessUtil.h */,
-				01AA99AF24ACA25200033739 /* AAILivenessViewController.h */,
-				01AA99B024ACA25200033739 /* AAIHUD.h */,
-				01AA99B124ACA25200033739 /* AAILivenessResultViewController.h */,
-				01AA99B224ACA25200033739 /* AAILivenessUtil.m */,
-				01AA99B324ACA25200033739 /* AAIHUD.m */,
-				01AA99B424ACA25200033739 /* AAILivenessViewController.m */,
-				01AA99B524ACA25200033739 /* AAILivenessResultViewController.m */,
 			);
 			path = AAILiveness;
 			sourceTree = "<group>";
@@ -351,7 +358,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AA99C524ACA7D000033739 /* EKYC.h in Headers */,
-				01F6507F24ACE9B600955E56 /* AAILivenessSDK.h in Headers */,
 				01AA99C824ACAE5700033739 /* AAILivenessViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,17 +425,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0192FE7324AE4F81000C0506 /* LaunchScreen.storyboard in Resources */,
 				01AA999C24ACA22C00033739 /* ic_action_complete_blue.png in Resources */,
 				01AA998D24ACA22C00033739 /* Warning.png in Resources */,
 				01AA999B24ACA22C00033739 /* ic_action_complete.png in Resources */,
 				01AA99B724ACA25200033739 /* AAIImgs.bundle in Resources */,
 				01AA999824ACA22C00033739 /* ic_next.png in Resources */,
 				01AA99B924ACA25200033739 /* AAILanguageString.bundle in Resources */,
+				0192FE7524AE4F81000C0506 /* Main.storyboard in Resources */,
 				01AA999E24ACA22C00033739 /* back-inverse.png in Resources */,
 				01AA999424ACA22C00033739 /* ic_next_blue.png in Resources */,
 				01AA999D24ACA22C00033739 /* img_id_verification.png in Resources */,
 				01AA999924ACA22C00033739 /* error.png in Resources */,
-				01AA998124ACA22C00033739 /* Localizable.strings in Resources */,
 				01AA999A24ACA22C00033739 /* id-card.png in Resources */,
 				01AA999F24ACA22C00033739 /* ic_action_refresh_blue.png in Resources */,
 				01AA999124ACA22C00033739 /* id_verfication.png in Resources */,
@@ -502,6 +509,7 @@
 				01AA998724ACA22C00033739 /* CompletionViewController.swift in Sources */,
 				01AA998624ACA22C00033739 /* CustomAlertView.swift in Sources */,
 				01AA99A024ACA22C00033739 /* KYCError.swift in Sources */,
+				0192FE7424AE4F81000C0506 /* AppDelegate.swift in Sources */,
 				01AA99A424ACA22C00033739 /* OCRResponse.swift in Sources */,
 				01AA99BF24ACA31C00033739 /* OCRService.swift in Sources */,
 				01AA99A324ACA22C00033739 /* Snapshot.swift in Sources */,
@@ -509,6 +517,7 @@
 				01AA99A624ACA22C00033739 /* LivenessResponse.swift in Sources */,
 				01AA998B24ACA22C00033739 /* VerificationRefultViewController.swift in Sources */,
 				01AA99BB24ACA25200033739 /* AAIHUD.m in Sources */,
+				0192FE7624AE4F81000C0506 /* SceneDelegate.swift in Sources */,
 				01AA998024ACA22C00033739 /* Util.swift in Sources */,
 				01AA998824ACA22C00033739 /* IdentityVerificationViewController.swift in Sources */,
 				01AA99BD24ACA25200033739 /* AAILivenessResultViewController.m in Sources */,
@@ -519,6 +528,7 @@
 				01AA997F24ACA22C00033739 /* ImagePicker.swift in Sources */,
 				01AA99BC24ACA25200033739 /* AAILivenessViewController.m in Sources */,
 				01AA99BA24ACA25200033739 /* AAILivenessUtil.m in Sources */,
+				0192FE7224AE4F81000C0506 /* ViewController.swift in Sources */,
 				01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */,
 				01AA998324ACA22C00033739 /* AlertModel.swift in Sources */,
 				01AA997D24ACA22C00033739 /* Environment.swift in Sources */,
@@ -530,16 +540,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		01AA994D24ACA22B00033739 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01AA994E24ACA22B00033739 /* en */,
-				01AA994F24ACA22B00033739 /* Base */,
-				01AA995724ACA22B00033739 /* id */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		01AA995024ACA22B00033739 /* Storyboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

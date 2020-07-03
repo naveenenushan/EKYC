@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AAILivenessSDK/AAILiveness/AAILivenessViewController.h"
+#import "AAIDetectionConstant.h"
+#import "AAILivenessSDK.h"
+
+#import "AAILivenessWrapView.h"
+#import "AAILocalizationUtil.h"
+
+#import "AAILivenessViewController.h"
 
 
 //! Project version number for ekyc.

@@ -10,7 +10,7 @@ import UIKit
 import JVFloatLabeledTextField
 import SwiftyJSON
 import AAILivenessSDK
-//import ekyc
+
 import SVProgressHUD
 
 class OCRViewController: MainViewController{

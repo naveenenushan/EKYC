@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
   
   #spec.platform     = :ios
-spec.platform     = :ios, "12.0"
+spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,15 +91,16 @@ spec.platform     = :ios, "12.0"
   #  Not including the public_header_files will make all headers public.
   #
   
-spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
+#spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
 
-  spec.source_files  = "Classes", "EKYC/Classes/*.swift"
+  spec.source_files  = "Classes", "EKYC/Classes/**/*.{swift,h,m}"
   
-  
+  spec.vendored_frameworks = 'EKYC/AAILivenessSDK/AAILivenessSDK.framework'
   
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+
+#spec.public_header_files = "EKYC/AAILivenessSDK/AAILivenessSDK.framework/Headers/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -112,7 +113,7 @@ spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.frame
 
   # spec.resource  = "icon.png"
   #
-   spec.resources = "EKYC/**/*.{png,storyboard,modulemap,strings,xib}"
+   spec.resources = "EKYC/**/*.{png,storyboard,strings,xib,bundle}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -123,13 +124,14 @@ spec.source_files  = "AAILivenessSDK", "EKYC/AAILivenessSDK/AAILivenessSDK.frame
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  #
+spec.framework  = "AAILivenessSDK"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
-
+#spec.preserve_paths = "EKYC/module.modulemap"
+#spec.module_map = "EKYC/module.modulemap"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
@@ -150,6 +152,7 @@ spec.dependency 'SwiftyJSON'
 spec.dependency 'DropDown'
 spec.dependency 'SVProgressHUD'
 spec.dependency 'JVFloatLabeledTextField'
+spec.dependency 'IQKeyboardManager'
 #spec.xcconfig = {'SWIFT_OBJC_BRIDGING_HEADER' => 'EKYC/EKYC.h'}
 
 
