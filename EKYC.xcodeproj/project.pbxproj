@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0192FE7224AE4F81000C0506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192FE6D24AE4F80000C0506 /* ViewController.swift */; };
-		0192FE7324AE4F81000C0506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192FE6E24AE4F80000C0506 /* LaunchScreen.storyboard */; };
-		0192FE7424AE4F81000C0506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192FE6F24AE4F80000C0506 /* AppDelegate.swift */; };
-		0192FE7524AE4F81000C0506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192FE7024AE4F80000C0506 /* Main.storyboard */; };
-		0192FE7624AE4F81000C0506 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192FE7124AE4F81000C0506 /* SceneDelegate.swift */; };
 		01AA993C24ACA0E900033739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA993B24ACA0E900033739 /* Assets.xcassets */; };
 		01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994724ACA22A00033739 /* imageResizeExtension.swift */; };
 		01AA997D24ACA22C00033739 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA994824ACA22A00033739 /* Environment.swift */; };
@@ -66,6 +61,12 @@
 		01AA99C324ACA68C00033739 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AA99C224ACA68C00033739 /* Localizable.strings */; };
 		01AA99C524ACA7D000033739 /* EKYC.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA99C124ACA63800033739 /* EKYC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01AA99C824ACAE5700033739 /* AAILivenessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AA99AF24ACA25200033739 /* AAILivenessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E041EC24AF822C00100DA3 /* back_side.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E041E624AF822B00100DA3 /* back_side.png */; };
+		01E041ED24AF822C00100DA3 /* number_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E041E724AF822B00100DA3 /* number_01.png */; };
+		01E041EE24AF822C00100DA3 /* front_side.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E041E824AF822C00100DA3 /* front_side.png */; };
+		01E041EF24AF822C00100DA3 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E041E924AF822C00100DA3 /* success.png */; };
+		01E041F024AF822C00100DA3 /* number_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E041EA24AF822C00100DA3 /* number_02.png */; };
+		01E041F124AF822C00100DA3 /* log-out.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E041EB24AF822C00100DA3 /* log-out.png */; };
 		01F6507B24ACE7BB00955E56 /* AAILivenessSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AA99A824ACA25200033739 /* AAILivenessSDK.framework */; };
 		01F6507C24ACE7BB00955E56 /* AAILivenessSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01AA99A824ACA25200033739 /* AAILivenessSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5C7BBC681FE360CE07BD881E /* Pods_EKYC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */; };
@@ -86,11 +87,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0192FE6D24AE4F80000C0506 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0192FE6E24AE4F80000C0506 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0192FE6F24AE4F80000C0506 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0192FE7024AE4F80000C0506 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		0192FE7124AE4F81000C0506 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01AA992F24ACA0E700033739 /* EKYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AA993B24ACA0E900033739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AA994024ACA0E900033739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,6 +149,12 @@
 		01AA99C024ACA39400033739 /* qmodule.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = qmodule.modulemap; sourceTree = "<group>"; };
 		01AA99C124ACA63800033739 /* EKYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKYC.h; sourceTree = "<group>"; };
 		01AA99C224ACA68C00033739 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		01E041E624AF822B00100DA3 /* back_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_side.png; sourceTree = "<group>"; };
+		01E041E724AF822B00100DA3 /* number_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_01.png; sourceTree = "<group>"; };
+		01E041E824AF822C00100DA3 /* front_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front_side.png; sourceTree = "<group>"; };
+		01E041E924AF822C00100DA3 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		01E041EA24AF822C00100DA3 /* number_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_02.png; sourceTree = "<group>"; };
+		01E041EB24AF822C00100DA3 /* log-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log-out.png"; sourceTree = "<group>"; };
 		87E11C8067898D26162AFE32 /* Pods-EKYC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKYC.release.xcconfig"; path = "Target Support Files/Pods-EKYC/Pods-EKYC.release.xcconfig"; sourceTree = "<group>"; };
 		A164DAA221838B49C68105D9 /* Pods-EKYC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKYC.debug.xcconfig"; path = "Target Support Files/Pods-EKYC/Pods-EKYC.debug.xcconfig"; sourceTree = "<group>"; };
 		FD88F53BD42D80CC8CF5F7E9 /* Pods_EKYC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EKYC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,11 +194,6 @@
 		01AA993124ACA0E700033739 /* EKYC */ = {
 			isa = PBXGroup;
 			children = (
-				0192FE6F24AE4F80000C0506 /* AppDelegate.swift */,
-				0192FE6E24AE4F80000C0506 /* LaunchScreen.storyboard */,
-				0192FE7024AE4F80000C0506 /* Main.storyboard */,
-				0192FE7124AE4F81000C0506 /* SceneDelegate.swift */,
-				0192FE6D24AE4F80000C0506 /* ViewController.swift */,
 				01AA99C224ACA68C00033739 /* Localizable.strings */,
 				01AA99C124ACA63800033739 /* EKYC.h */,
 				01AA99C024ACA39400033739 /* qmodule.modulemap */,
@@ -269,6 +266,12 @@
 		01AA996024ACA22B00033739 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				01E041E624AF822B00100DA3 /* back_side.png */,
+				01E041E824AF822C00100DA3 /* front_side.png */,
+				01E041EB24AF822C00100DA3 /* log-out.png */,
+				01E041E724AF822B00100DA3 /* number_01.png */,
+				01E041EA24AF822C00100DA3 /* number_02.png */,
+				01E041E924AF822C00100DA3 /* success.png */,
 				01AA996124ACA22B00033739 /* Warning.png */,
 				01AA996224ACA22B00033739 /* arrow-down-sign-to-navigate.png */,
 				01AA996324ACA22B00033739 /* complete.png */,
@@ -425,14 +428,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0192FE7324AE4F81000C0506 /* LaunchScreen.storyboard in Resources */,
+				01E041EC24AF822C00100DA3 /* back_side.png in Resources */,
 				01AA999C24ACA22C00033739 /* ic_action_complete_blue.png in Resources */,
 				01AA998D24ACA22C00033739 /* Warning.png in Resources */,
 				01AA999B24ACA22C00033739 /* ic_action_complete.png in Resources */,
 				01AA99B724ACA25200033739 /* AAIImgs.bundle in Resources */,
 				01AA999824ACA22C00033739 /* ic_next.png in Resources */,
 				01AA99B924ACA25200033739 /* AAILanguageString.bundle in Resources */,
-				0192FE7524AE4F81000C0506 /* Main.storyboard in Resources */,
+				01E041F124AF822C00100DA3 /* log-out.png in Resources */,
 				01AA999E24ACA22C00033739 /* back-inverse.png in Resources */,
 				01AA999424ACA22C00033739 /* ic_next_blue.png in Resources */,
 				01AA999D24ACA22C00033739 /* img_id_verification.png in Resources */,
@@ -445,12 +448,16 @@
 				01AA998F24ACA22C00033739 /* complete.png in Resources */,
 				01AA999024ACA22C00033739 /* down-arrow.png in Resources */,
 				01AA99B824ACA25200033739 /* AAIAudio.bundle in Resources */,
+				01E041ED24AF822C00100DA3 /* number_01.png in Resources */,
 				01AA999224ACA22C00033739 /* facial-recognition.png in Resources */,
+				01E041EF24AF822C00100DA3 /* success.png in Resources */,
 				01AA998E24ACA22C00033739 /* arrow-down-sign-to-navigate.png in Resources */,
 				01AA99C324ACA68C00033739 /* Localizable.strings in Resources */,
 				01AA999724ACA22C00033739 /* ic_action_refresh.png in Resources */,
+				01E041EE24AF822C00100DA3 /* front_side.png in Resources */,
 				01AA998424ACA22C00033739 /* AlertView.xib in Resources */,
 				01AA999324ACA22C00033739 /* alert.png in Resources */,
+				01E041F024AF822C00100DA3 /* number_02.png in Resources */,
 				01AA999524ACA22C00033739 /* ic_next_white.png in Resources */,
 				01AA998224ACA22C00033739 /* Storyboard.storyboard in Resources */,
 			);
@@ -509,7 +516,6 @@
 				01AA998724ACA22C00033739 /* CompletionViewController.swift in Sources */,
 				01AA998624ACA22C00033739 /* CustomAlertView.swift in Sources */,
 				01AA99A024ACA22C00033739 /* KYCError.swift in Sources */,
-				0192FE7424AE4F81000C0506 /* AppDelegate.swift in Sources */,
 				01AA99A424ACA22C00033739 /* OCRResponse.swift in Sources */,
 				01AA99BF24ACA31C00033739 /* OCRService.swift in Sources */,
 				01AA99A324ACA22C00033739 /* Snapshot.swift in Sources */,
@@ -517,7 +523,6 @@
 				01AA99A624ACA22C00033739 /* LivenessResponse.swift in Sources */,
 				01AA998B24ACA22C00033739 /* VerificationRefultViewController.swift in Sources */,
 				01AA99BB24ACA25200033739 /* AAIHUD.m in Sources */,
-				0192FE7624AE4F81000C0506 /* SceneDelegate.swift in Sources */,
 				01AA998024ACA22C00033739 /* Util.swift in Sources */,
 				01AA998824ACA22C00033739 /* IdentityVerificationViewController.swift in Sources */,
 				01AA99BD24ACA25200033739 /* AAILivenessResultViewController.m in Sources */,
@@ -528,7 +533,6 @@
 				01AA997F24ACA22C00033739 /* ImagePicker.swift in Sources */,
 				01AA99BC24ACA25200033739 /* AAILivenessViewController.m in Sources */,
 				01AA99BA24ACA25200033739 /* AAILivenessUtil.m in Sources */,
-				0192FE7224AE4F81000C0506 /* ViewController.swift in Sources */,
 				01AA997C24ACA22C00033739 /* imageResizeExtension.swift in Sources */,
 				01AA998324ACA22C00033739 /* AlertModel.swift in Sources */,
 				01AA997D24ACA22C00033739 /* Environment.swift in Sources */,

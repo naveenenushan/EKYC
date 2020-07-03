@@ -65,7 +65,7 @@ class UploadVerificationViewController: MainViewController{
                     OCRATTACHMENTID = jsonResponse["ocrAttachmentId"].stringValue
                     
                     if jsonResponse["code"].stringValue != ""{
-    //                    self.manager.delegate?.onKYCError(kycResult: KycError.checkErrorCode(jsonResponse["code"].stringValue))
+                        self.manager.delegate?.onKYCError(kycResult: KycError.checkErrorCode(jsonResponse["code"].stringValue))
                         if(jsonResponse["code"].stringValue == "INVALID_ID"){
                             CustomAlertView.CustomAlertViewBuilder(title: NSLocalizedString("error", bundle: self.getBundle()!, comment: ""),message: NSLocalizedString("incorrectIdPhoto", bundle: self.getBundle()!, comment: ""))
                                 .setRightButton(text: NSLocalizedString("ok", bundle: self.getBundle()!, comment: ""), completionHandler: { () -> Void in

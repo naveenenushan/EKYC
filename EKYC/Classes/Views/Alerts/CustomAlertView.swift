@@ -346,7 +346,7 @@ extension CustomAlertView{
     
     func getBundle() -> Bundle? {
         var bundle: Bundle?
-        if let urlString = Bundle.main.path(forResource: "ekyc", ofType: "framework", inDirectory: "Frameworks") {
+        if let urlString = Bundle.main.path(forResource: "EKYC", ofType: "framework", inDirectory: "Frameworks") {
             bundle = (Bundle(url: URL(fileURLWithPath: urlString)))
         }
             return bundle

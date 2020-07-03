@@ -31,10 +31,10 @@ class NetworkManager {
         let headers: HTTPHeaders = [
             "Content-Type": "application/x-www-form-urlencoded"
         ]
-        
+        print(headers)
         let url = URL(string: eKYCApiConst.BASEURL+"core/connect/token")
-        AF.request(url!, method: .post, parameters: parameters, encoding: URLEncoding(), headers: headers).response { (response) in
-           
+        AF.request(url!, method: .post, parameters: parameters, encoding: URLEncoding(), headers: nil).response { (response) in
+           print(response)
             DispatchQueue.main.async {
                 SVProgressHUD.dismiss()
             }
@@ -57,7 +57,7 @@ class NetworkManager {
     func getLivenessCredentials(_ parameters:[String:Any], completion: @escaping (_ success: Bool, _ jsonResponse: JSON, _ error: Error?) -> ()) {
         
         SVProgressHUD.show()
-        SVProgressHUD.setDefaultMaskType(.clear)
+       SVProgressHUD.setDefaultMaskType(.clear)
         
         let headers: HTTPHeaders = [
             "authorization": "Bearer \(EKYCTOKEN)",
@@ -87,7 +87,7 @@ class NetworkManager {
     }
     
     func uploadOcrImage(_ image: UIImage, side: String = "FRONT", completion: @escaping (_ success: Bool, _ jsonResponse: JSON, _ error: Error?) -> ()) {
-        
+       
         SVProgressHUD.show()
         SVProgressHUD.setDefaultMaskType(.clear)
         
@@ -96,38 +96,43 @@ class NetworkManager {
         let headers: HTTPHeaders = [
             "authorization": "Bearer \(EKYCTOKEN)",
             "subscription": SUBSCRIPTION,
-        ] 
-        
+        ]
+          
         AF.upload(multipartFormData: { (multipartFormData) in
             
             multipartFormData.append(image.wxCompress().jpegData(compressionQuality: 1)!, withName: "image", fileName: "image.png", mimeType: "image/jpeg")
             
-        }, to: url, usingThreshold: UInt64.init(), method: .post, headers: headers) { (result) in
+            }, to: url, usingThreshold: UInt64.init(), method: .post, headers: headers).response { (response) in
             
-//            switch result{
-//            case .success(let upload, _, _):
-//                upload.responseJSON { response in
-//
-//                    DispatchQueue.main.async {
-//                        SVProgressHUD.dismiss()
-//                    }
-//
-//                    do {
-//                        let jsonResponse = try JSON(data: response.data ?? Data())
-//                        completion(true, jsonResponse, nil)
-//                    }
-//                    catch _ {
-//                        completion(false, JSON(), NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey : "Invalid Json"]))
-//                    }
-//
-//                }
-//            case .failure(let error):
-//                completion(false, JSON(), error)
-//
-//                DispatchQueue.main.async {
-//                    SVProgressHUD.dismiss()
-//                }
-//            }
+                print(response.data ?? "default value")
+            
+               
+             
+            switch response.result {
+            case .success(let resut):
+                
+               
+
+                    DispatchQueue.main.async {
+                        SVProgressHUD.dismiss()
+                    }
+
+                    do {
+                        let jsonResponse = try JSON(data: response.data ?? Data())
+                        completion(true, jsonResponse, nil)
+                    }
+                    catch _ {
+                        completion(false, JSON(), NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey : "Invalid Json"]))
+                    
+
+                }
+            case .failure(let error):
+                completion(false, JSON(), error)
+
+                DispatchQueue.main.async {
+                    SVProgressHUD.dismiss()
+                }
+            }
         }
         
     }
@@ -135,7 +140,7 @@ class NetworkManager {
     func updateOcrInfo(_ parameters:[String:Any], completion: @escaping (_ success: Bool, _ jsonResponse: JSON, _ error: Error?) -> ()) {
         
         SVProgressHUD.show()
-        SVProgressHUD.setDefaultMaskType(.clear)
+       SVProgressHUD.setDefaultMaskType(.clear)
         
         let headers: HTTPHeaders = [
             "authorization": "Bearer \(EKYCTOKEN)",
@@ -167,7 +172,7 @@ class NetworkManager {
     
     func getLivenessDetection(_ parameters:[String:Any], completion: @escaping (_ success: Bool, _ jsonResponse: JSON, _ error: Error?) -> ()) {
         
-        SVProgressHUD.show()
+       SVProgressHUD.show()
         SVProgressHUD.setDefaultMaskType(.clear)
         
         let headers: HTTPHeaders = [
@@ -230,7 +235,7 @@ class NetworkManager {
     }
     
     func getSummaryDetails(_ parameters:[String:Any], completion: @escaping (_ success: Bool, _ jsonResponse: JSON, _ error: Error?) -> ()) {
-        
+//
         SVProgressHUD.show()
         SVProgressHUD.setDefaultMaskType(.clear)
         
@@ -264,7 +269,7 @@ class NetworkManager {
     
     func submitKYC(_ parameters:[String:Any], completion: @escaping(_ success:Bool, _ jsonResponse: JSON, _ error: Error?) -> ()){
         SVProgressHUD.show()
-        SVProgressHUD.setDefaultMaskType(.clear)
+       SVProgressHUD.setDefaultMaskType(.clear)
         
         let headers: HTTPHeaders = [
             "authorization": "Bearer \(EKYCTOKEN)",

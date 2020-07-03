@@ -41,23 +41,23 @@ class IdentityVerificationViewController: MainViewController, UIImagePickerContr
         
         updateLableText()
 //        
-//        var documentTypeName = [NSLocalizedString("nationalId", bundle: getBundle()!, comment: ""), NSLocalizedString("passport", bundle: getBundle()!, comment: ""), NSLocalizedString("drivingLicense", bundle: getBundle()!, comment: "")]
-//        
-//        DOCUMENTTYPE = "ID"
-//        
-//        dropDown.dataSource = documentTypeName
-//
-//        dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
-//            self.identityNameLabel.text = item
-//            DOCUMENTTYPE = self.documentTypeCode[index]
-//        }
-//
-//        self.imagePicker = ImagePicker(presentationController: self, delegate: self)
-//
-//        self.identificationView.layer.cornerRadius = 5
-//        self.identificationView.clipsToBounds = true
-//        uploadBtn.layer.cornerRadius = 5
-//        uploadBtn.backgroundColor = BUTTONCOLOR
+        var documentTypeName = [NSLocalizedString("nationalId", bundle: getBundle()!, comment: ""), NSLocalizedString("passport", bundle: getBundle()!, comment: ""), NSLocalizedString("drivingLicense", bundle: getBundle()!, comment: "")]
+        
+        DOCUMENTTYPE = "ID"
+        
+        dropDown.dataSource = documentTypeName
+
+        dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
+            self.identityNameLabel.text = item
+            DOCUMENTTYPE = self.documentTypeCode[index]
+        }
+
+        self.imagePicker = ImagePicker(presentationController: self, delegate: self)
+
+        self.identificationView.layer.cornerRadius = 5
+        self.identificationView.clipsToBounds = true
+        uploadBtn.layer.cornerRadius = 5
+        uploadBtn.backgroundColor = BUTTONCOLOR
     }
    
     @IBAction func selectIdentificationType(_ sender: UIButton) {
@@ -84,8 +84,8 @@ class IdentityVerificationViewController: MainViewController, UIImagePickerContr
     func updateLableText(){
         
        
-        self.identityVerificationNavigationItem.title =  NSLocalizedString("identityVerification", comment: "")
-//        self.identificationTypeLable.text = NSLocalizedString("selectIdentificationType", bundle: getBundle()!, comment: "")
+       
+        self.identificationTypeLable.text = NSLocalizedString("selectIdentificationType", bundle: getBundle()!, comment: "")
         self.identityNameLabel.text = NSLocalizedString("nationalId", comment: "")
         
         uploadBtn.setTitle(NSLocalizedString("uploadDocument", comment: ""), for: .normal)
